@@ -36,3 +36,17 @@ Veritabanı sistemin kalıcı hafızasıdır. Bir zanaatkar burada veriyi sadece
 
 ---
 [⬆️ Başa Dön](../README.md)
+
+## ❓ Zanaatkar Mülakat Soruları
+1. **Veritabanı indeksi sorgu performansını nasıl artırır? Dezavantajları nelerdir?**
+2. **ACID prensipleri nelerdir?**
+3. **Optimistic vs Pessimistic Locking farkı nedir?**
+4. **Database Sharding ve Partitioning arasındaki fark nedir?**
+5. **NoSQL veritabanlarında 'Eventual Consistency' ne anlama gelir?**
+
+## ✅ Üretim Hazırlık Kontrol Listesi (Production Checklist)
+- [ ] Slow query logları aktif edildi mi?
+- [ ] Veritabanı yedekleme (Backup) ve geri yükleme (Restore) test edildi mi?
+- [ ] Bağlantı havuzu (Connection Pooling) ayarları optimize edildi mi?
+- [ ] Hassas veriler (Sensitive Data) şifrelendi mi?
+- [ ] İndeksleme stratejisi gözden geçirildi mi?

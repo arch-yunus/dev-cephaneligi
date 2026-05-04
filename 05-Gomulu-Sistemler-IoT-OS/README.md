@@ -35,3 +35,17 @@ Kodun donanımla el sıkıştığı en saf katman. Bir zanaatkar burada mikro sa
 
 ---
 [⬆️ Başa Dön](../README.md)
+
+## ❓ Zanaatkar Mülakat Soruları
+1. **Interrupt Servis Rutini (ISR) içinde 'blocking' kod neden kullanılmaz?**
+2. **Little Endian ve Big Endian farkı nedir?**
+3. **I2C ve SPI haberleşme protokolleri arasındaki temel farklar nelerdir?**
+4. **Watchdog Timer ne işe yarar?**
+5. **Real-Time OS (RTOS) ile genel amaçlı OS arasındaki fark nedir?**
+
+## ✅ Üretim Hazırlık Kontrol Listesi (Production Checklist)
+- [ ] Güç tüketimi (Power Consumption) ölçümleri yapıldı mı?
+- [ ] Donanım hata ayıklama (JTAG/SWD) portları güvenliğe alındı mı?
+- [ ] Firmware güncelleme (OTA) mekanizması kuruldu mu?
+- [ ] Kritik zamanlama (Timing) analizleri tamamlandı mı?
+- [ ] EMI/EMC standartlarına uyumluluk kontrol edildi mi?

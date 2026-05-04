@@ -35,3 +35,17 @@ Programlama dilleri düşüncenin alfabesidir. Bir zanaatkar için dil, sadece s
 
 ---
 [⬆️ Başa Dön](../README.md)
+
+## ❓ Zanaatkar Mülakat Soruları
+1. **Garbage Collection (GC) nasıl çalışır?** Performans üzerindeki etkileri nelerdir?
+2. **Statik ve Dinamik tipleme arasındaki fark nedir?** Projenin ölçeklenebilirliğini nasıl etkiler?
+3. **Closure nedir?** Hangi durumlarda bellek sızıntısına (memory leak) neden olabilir?
+4. **Compiled vs Interpreted diller arasındaki farklar nelerdir?**
+5. **Thread-safety nedir?** Bir kodu nasıl thread-safe hale getiririz?
+
+## ✅ Üretim Hazırlık Kontrol Listesi (Production Checklist)
+- [ ] Kod standartlarına (Linting/Formatting) uygunluk sağlandı mı?
+- [ ] Birim testler (Unit Tests) %80 kapsama ulaştı mı?
+- [ ] Bellek sızıntısı (Memory Leak) analizi yapıldı mı?
+- [ ] Hata yönetimi (Error Handling) tüm uç durumları kapsıyor mu?
+- [ ] Loglama mekanizması (Structured Logging) kuruldu mu?

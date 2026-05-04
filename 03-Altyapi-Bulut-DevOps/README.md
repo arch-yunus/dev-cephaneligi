@@ -35,3 +35,17 @@ DevOps, sistemlerin sürdürülebilirliğini sağlayan görünmez güçtür. Bir
 
 ---
 [⬆️ Başa Dön](../README.md)
+
+## ❓ Zanaatkar Mülakat Soruları
+1. **Kubernetes'te Pod ve Deployment arasındaki fark nedir?**
+2. **CI/CD sürecinde 'Blue-Green Deployment' ve 'Canary Release' farkları nelerdir?**
+3. **Infrastructure as Code (IaC) kullanmanın avantajları ve riskleri nelerdir?**
+4. **Docker Layer Caching nedir ve build süresini nasıl etkiler?**
+5. **SRE (Site Reliability Engineering) prensipleri nelerdir?**
+
+## ✅ Üretim Hazırlık Kontrol Listesi (Production Checklist)
+- [ ] Load Balancer konfigürasyonu yapıldı mı?
+- [ ] Otomatik ölçekleme (Auto-scaling) kuralları tanımlandı mı?
+- [ ] Backup ve Disaster Recovery planı hazır mı?
+- [ ] SSL/TLS sertifikaları güncel mi?
+- [ ] Alarm ve izleme (Alerting/Monitoring) sistemleri aktif mi?

@@ -35,3 +35,17 @@ Yazılım bir lonca işidir. Topluluğa katkı sağlamak ve kolektif zekayı kul
 
 ---
 [⬆️ Başa Dön](../README.md)
+
+## ❓ Zanaatkar Mülakat Soruları
+1. **Açık kaynak projeye katkıda bulunmanın kariyer üzerindeki etkileri nelerdir?**
+2. **Teknik borç nasıl 'iletişim' yoluyla azaltılabilir?**
+3. **Pair Programming'in avantajları ve dezavantajları nelerdir?**
+4. **Bir geliştirici olarak 'sürekli öğrenme' alışkanlığı nasıl kazanılır?**
+5. **Takım içi çatışmalar teknik kararları nasıl etkiler?**
+
+## ✅ Üretim Hazırlık Kontrol Listesi (Production Checklist)
+- [ ] Lisans dosyası (LICENSE) eklendi mi?
+- [ ] Katkıda bulunma rehberi (CONTRIBUTING.md) hazır mı?
+- [ ] Topluluk kanalları (Discord/Slack) linklendi mi?
+- [ ] Proje vizyonu ve roadmap açıkça belirtildi mi?
+- [ ] İletişim dili (Kibar ve profesyonel) korundu mu?

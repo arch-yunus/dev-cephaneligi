@@ -35,3 +35,17 @@ AI, verinin ham halini zekaya dönüştürme sanatıdır. Bir zanaatkar burada h
 
 ---
 [⬆️ Başa Dön](../README.md)
+
+## ❓ Zanaatkar Mülakat Soruları
+1. **Gradient Descent nedir?** Yerel minimum (local minimum) probleminden nasıl kaçınılır?
+2. **Transformer mimarisindeki 'Attention' mekanizması ne işe yarar?**
+3. **Overfitting'i önlemek için kullanılan Regularization teknikleri nelerdir?**
+4. **Supervised vs Unsupervised learning arasındaki farklar nelerdir?**
+5. **Model bias (yanlılık) nedir ve nasıl ölçülür?**
+
+## ✅ Üretim Hazırlık Kontrol Listesi (Production Checklist)
+- [ ] Model performansı (Accuracy/F1-Score) hedef seviyede mi?
+- [ ] Veri boru hattı (Data Pipeline) hatalara karşı dayanıklı mı?
+- [ ] Model çıkarım süresi (Inference Latency) ölçüldü mü?
+- [ ] Veri drifti (Data Drift) izleme mekanizması kuruldu mu?
+- [ ] Etik ve yanlılık kontrolleri yapıldı mı?

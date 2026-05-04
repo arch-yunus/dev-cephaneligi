@@ -35,3 +35,17 @@ Web ve mobil, yazılımın dış dünyayla temas ettiği deri gibidir. Bir zanaa
 
 ---
 [⬆️ Başa Dön](../README.md)
+
+## ❓ Zanaatkar Mülakat Soruları
+1. **React'te 'Virtual DOM' nasıl çalışır ve performansı nasıl artırır?**
+2. **Server-Side Rendering (SSR) ve Static Site Generation (SSG) arasındaki farklar nelerdir?**
+3. **CSS Box Model nedir? 'border-box' ve 'content-box' farkı nedir?**
+4. **Web Security: XSS ve CSRF saldırılarından nasıl korunuruz?**
+5. **Browser rendering süreci (Critical Rendering Path) nasıl işler?**
+
+## ✅ Üretim Hazırlık Kontrol Listesi (Production Checklist)
+- [ ] Lighthouse skorları (Performance/SEO/Accessibility) optimize edildi mi?
+- [ ] Image optimization ve lazy loading yapıldı mı?
+- [ ] Güvenlik başlıkları (Security Headers) eklendi mi?
+- [ ] Cross-browser testleri tamamlandı mı?
+- [ ] CDN (Content Delivery Network) entegrasyonu sağlandı mı?

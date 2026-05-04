@@ -89,7 +89,45 @@ Teknolojiler değişir ama **prensipler bakidir**. Bu cephanelikteki araçları 
 
 ---
 
-## 🏛️ Mimari Yaklaşımlar (Architectural Patterns)
+## 🏛️ Sistem Tasarımı Masterclass (System Design)
+
+Bir zanaatkar sadece tuğla örmez, binanın tamamını tasarlar. İşte modern ve ölçeklenebilir bir sistemin anatomisi:
+
+```mermaid
+graph TD
+    User((Kullanıcı)) --> DNS[Cloudflare / DNS]
+    DNS --> LB[Load Balancer / Nginx]
+    
+    subgraph "Uygulama Katmanı"
+    LB --> App1[Web Server 1]
+    LB --> App2[Web Server 2]
+    end
+    
+    subgraph "Cache Katmanı"
+    App1 --> Redis[(Redis Cache)]
+    App2 --> Redis
+    end
+    
+    subgraph "Veri Katmanı"
+    App1 --> DB[(PostgreSQL Master)]
+    App2 --> DB
+    DB --> Replica[(PostgreSQL Replica)]
+    end
+    
+    subgraph "Arka Plan & Kuyruk"
+    App1 --> MQ{RabbitMQ / Kafka}
+    MQ --> Worker[Worker Service]
+    Worker --> S3[Object Storage / S3]
+    end
+```
+
+### 🗝️ Ölçeklenebilirlik Anahtarları
+- **Vertical Scaling:** Mevcut sunucunun gücünü (CPU/RAM) artırmak.
+- **Horizontal Scaling:** Sisteme daha fazla sunucu eklemek (Ölçeklenebilirliğin kralı).
+- **Caching:** Sık erişilen veriyi bellekte (Redis) tutarak veritabanı yükünü azaltmak.
+- **Database Sharding:** Veriyi parçalara ayırıp farklı sunuculara dağıtmak.
+
+---
 
 ```mermaid
 graph TD
@@ -133,6 +171,16 @@ graph TD
 | <br><img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite,redis,cassandra,dynamodb,neo4j,planetscale,supabase,appwrite,firebase&perline=6" /><br> | <br><img src="https://skillicons.dev/icons?i=stackoverflow,github,gitlab,bitbucket,discord,slack,instagram,linkedin,twitter,md,fediverse,activitypub&perline=6" /><br> |
 
 </div>
+
+---
+
+## 🏗️ Proje Şablonları (Blueprints)
+
+Bir zanaatkar işine başlarken atölyesini düzenler. En yaygın proje türleri için hazır klasör yapıları ve başlangıç rehberleri:
+
+- **[Full-stack Next.js & Supabase](./99-Proje-Sablonlari/Fullstack-NextJS.md)**
+- **[Go Mikroservis Mimarisi](./99-Proje-Sablonlari/Microservice-Go.md)**
+- **[Rust CLI Tool Şablonu](./99-Proje-Sablonlari/CLI-Rust.md)**
 
 ---
 
