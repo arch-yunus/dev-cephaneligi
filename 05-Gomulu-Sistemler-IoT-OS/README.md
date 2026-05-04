@@ -2,38 +2,26 @@
 
 # 📟 Gömülü Sistemler, IoT & İşletim Sistemleri
 
-Yazılımın fiziksel dünyayla buluştuğu donanım seviyesi ve işletim sistemi mimarileri.
+## 🎭 Zanaatkarın Bakış Açısı
+Yazılımın fiziksel dünya ile birleştiği o sihirli nokta burasıdır. Bir bitin bir motoru döndürdüğünü görmek, bir zanaatkar için en saf hazlardan biridir. Burada kaynaklar kısıtlıdır; bellek ve işlemci gücü her zaman değerlidir. Verimlilik burada bir tercih değil, bir zorunluluktur.
 
-## 💡 Neden Buradayız? (Merak Uyandır!)
-Kodun sadece ekranda kalmadığı, bir motoru döndürdüğü veya bir sensörü okuduğu yer burası. Akıllı evlerden mars araçlarına kadar her şeyin kalbinde bu disiplin yatar. Yazılım ve donanımın o muazzam dansına tanıklık etmeye hazır mısınız?
+## 🛠️ Nasıl Başlamalıyım?
+1. **Sistem Mimarisi:** Bir CPU'nun ve belleğin (RAM) nasıl el sıkıştığını anlamaya çalışın.
+2. **Linux Çekirdeği:** Bir işletim sisteminin süreçleri nasıl yönettiğini keşfedin.
+3. **Fiziksel Etkileşim:** Bir Arduino veya ESP32 ile donanıma ilk komutlarınızı gönderin.
 
-## 🛠️ Nasıl Başlamalıyım? (Yönlendir!)
-1. **İşletim Sistemi Mantığı:** Linux çekirdeğinin ve süreç yönetiminin nasıl çalıştığını anlayın.
-2. **Arduino/Raspberry Pi:** Fiziksel bir cihazla ilk LED'inizi yakın veya bir motoru kontrol edin.
-3. **C & C++:** Donanımla konuşmak için bu dillerde ustalaşın.
-4. **Oyun Motorları:** Godot veya Unity ile sanal dünyalar inşa edin.
+## 📚 Kutsal Kitaplar & Kaynaklar
+- **Modern Operating Systems** - Andrew S. Tanenbaum
+- **The Art of Electronics** - Horowitz & Hill
+- **Programming Embedded Systems** - Michael Barr
+
+## 🚀 Zanaatkarlık Görevleri
+- **Çırak:** Arduino kullanarak bir sensörden (Örn: Mesafe/Sıcaklık) gelen veriyi bilgisayarına aktar.
+- **Kalfa:** Raspberry Pi üzerinde çalışan küçük bir ev otomasyon sistemi (Örn: Lamba kontrolü) yap.
+- **Usta:** Linux çekirdeği (Kernel) için basit bir sürücü (Driver) geliştir veya bir RTOS (Real Time OS) kullan.
 
 ## 🚀 Teknolojiler
-- Linux
-- Ubuntu
-- Debian
-- Fedora
-- Kali Linux
-- Arch Linux
-- Linux Mint
-- RedHat
-- BSD
-- Nix
-- Plan9
-- Apple
-- Windows
-- ROS (Robot Operating System)
-- Arduino
-- Raspberry Pi
-- Bevy
-- Godot
-- Unity
-- Unreal Engine
+- Linux, Ubuntu, Debian, Fedora, Kali Linux, Arch Linux, Linux Mint, RedHat, BSD, Nix, Plan9, Apple, Windows, ROS (Robot Operating System), Arduino, Raspberry Pi, Bevy, Godot, Unity, Unreal Engine.
 
 ---
 [⬆️ Başa Dön](../README.md)

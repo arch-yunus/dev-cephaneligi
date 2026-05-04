@@ -2,32 +2,26 @@
 
 # 🧠 Yapay Zeka, Veri & Zeka
 
-Veriden anlam çıkaran, modeller eğiten ve otonom sistemler kuran teknolojiler.
+## 🎭 Zanaatkarın Bakış Açısı
+Yapay zeka, insanın kendi bilişsel süreçlerini makineler üzerinde yeniden inşa etme çabasıdır. Burada veri, pasif bir bilgi yığını değil; öğrenen bir organizmanın gıdasıdır. Bir zanaatkar olarak AI ile uğraşmak, sadece model eğitmek değil, makinelerin rüyalarını (hallucinations) ve mantığını anlamaya çalışmaktır.
 
-## 💡 Neden Buradayız? (Merak Uyandır!)
-İnsanlık tarihinin en büyük devrimi yaşanıyor: **Makine Zekası**. Eskiden bilgisayarlara ne yapacaklarını biz söylerdik, şimdi ise onlara "nasıl öğreneceklerini" öğretiyoruz. Veri, günümüzün petrolüdür; bu araçlar ise o petrolü işleyip geleceği tahmin eden rafinerilerdir.
+## 🛠️ Nasıl Başlamalıyım?
+1. **Veri Okuryazarlığı:** Veriyi sadece sayı olarak değil, bir hikaye olarak okumayı öğrenin.
+2. **Kütüphaneler:** TensorFlow ve PyTorch arasındaki felsefe farklarını anlayın.
+3. **Matematiksel Sezgi:** Gradient Descent'in bir tepeden aşağı inmek olduğunu hissetmeden derin öğrenmeyi kavrayamazsınız.
 
-## 🛠️ Nasıl Başlamalıyım? (Yönlendir!)
-1. **Matematik Temeli:** Lineer cebir ve istatistiğin temellerine göz atın.
-2. **Python & Kütüphaneler:** NumPy ve Pandas ile veri manipülasyonunu öğrenin.
-3. **Görselleştirme:** Veriyi anlamak için Matplotlib veya Grafana kullanın.
-4. **İlk Modelini Eğit:** Scikit-learn ile basit bir regresyon modeli yaparak işe başlayın.
+## 📚 Kutsal Kitaplar & Kaynaklar
+- **Deep Learning** - Ian Goodfellow (Modern yapay zekanın temeli)
+- **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow** - Aurélien Géron
+- **Artificial Intelligence: A Modern Approach** - Stuart Russell & Peter Norvig
+
+## 🚀 Zanaatkarlık Görevleri
+- **Çırak:** Bir CSV dosyasındaki verileri analiz edip grafiklerle özetleyen bir script yaz.
+- **Kalfa:** El yazısı rakamları (MNIST) tanıyan basit bir Sinir Ağı inşa et.
+- **Usta:** LangChain kullanarak, kendi dökümanlarını okuyup cevap veren bir RAG (Retrieval-Augmented Generation) sistemi kur.
 
 ## 🚀 Teknolojiler
-- TensorFlow
-- PyTorch
-- OpenCV
-- Scikit-learn
-- NumPy
-- Pandas
-- Matlab
-- Octave
-- Anaconda
-- D3
-- Grafana
-- Prometheus
-- Regex
-- Processing
+- TensorFlow, PyTorch, OpenCV, Scikit-learn, NumPy, Pandas, Matlab, Octave, Anaconda, D3, Grafana, Prometheus, Regex, Processing.
 
 ---
 [⬆️ Başa Dön](../README.md)

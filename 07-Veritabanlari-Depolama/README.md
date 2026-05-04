@@ -2,30 +2,26 @@
 
 # 🗄️ Veritabanları & Depolama
 
-Verinin yapısına, erişim hızına ve büyüklüğüne göre sınıflandırılan depolama teknolojileri.
+## 🎭 Zanaatkarın Bakış Açısı
+Uygulamanın ruhu kodda olabilir ama hafızası veritabanındadır. Bir zanaatkar için veri saklamak sadece tablo oluşturmak değildir; verinin zaman içindeki yolculuğunu, erişim hızını ve güvenliğini planlamaktır. SQL bir dil değil, bir veri işleme sanatıdır.
 
-## 💡 Neden Buradayız? (Merak Uyandır!)
-Uygulamanızın hafızası burası. Veriyi sadece saklamak yetmez; onu en hızlı, en güvenli ve en ölçeklenebilir şekilde nasıl geri getireceğinizi bilmeniz gerekir. Milyarlarca satır veri arasından bir milisaniyede aradığınızı bulmak bir mühendislik sanatıdır.
+## 🛠️ Nasıl Başlamalıyım?
+1. **Şema Tasarımı:** Veri modellerini kağıt üzerinde çizmeyi öğrenin.
+2. **İndeksleme:** Verinin diskte nasıl arandığını ve indekslerin performansa etkisini kavrayın.
+3. **CAP Teoremi:** Dağıtık sistemlerde neden "her şeye aynı anda" sahip olamayacağınızı anlayın.
 
-## 🛠️ Nasıl Başlamalıyım? (Yönlendir!)
-1. **SQL Temelleri:** PostgreSQL veya MySQL ile veritabanı şeması tasarlamayı öğrenin.
-2. **Normalizasyon:** Verinin neden ve nasıl bölündüğünü anlayın.
-3. **NoSQL:** Hız ve esneklik için MongoDB gibi doküman tabanlı sistemleri deneyin.
-4. **BaaS Kullan:** Projelerini hızlandırmak için Supabase veya Firebase gibi hazır platformlarla çalışın.
+## 📚 Kutsal Kitaplar & Kaynaklar
+- **Designing Data-Intensive Applications** - Martin Kleppmann (Sektörün zirve noktası)
+- **SQL Antipatterns** - Bill Karwin
+- **Database Internals** - Alex Petrov
+
+## 🚀 Zanaatkarlık Görevleri
+- **Çırak:** PostgreSQL kullanarak, birbirine bağlı 3 tablodan oluşan bir veri modeli tasarla ve karmaşık sorgular (JOINs) yaz.
+- **Kalfa:** Redis kullanarak bir "Cashing" (Önbellekleme) katmanı oluştur ve performans artışını ölç.
+- **Usta:** Bir NoSQL veritabanı (Örn: MongoDB) üzerinde milyonlarca satır veri ile performans testi yap ve sorguları optimize et.
 
 ## 🚀 Teknolojiler
-- PostgreSQL
-- MongoDB
-- MySQL
-- SQLite
-- Redis
-- Cassandra
-- DynamoDB
-- Neo4j
-- PlanetScale
-- Supabase
-- Appwrite
-- Firebase
+- PostgreSQL, MongoDB, MySQL, SQLite, Redis, Cassandra, DynamoDB, Neo4j, PlanetScale, Supabase, Appwrite, Firebase.
 
 ---
 [⬆️ Başa Dön](../README.md)

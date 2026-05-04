@@ -13,106 +13,79 @@
 
 ---
 
-## 🎯 Vizyon
-**Dev-Cephaneliği**, modern teknoloji dünyasında bir sistemin temelinden bulut mimarisine, gömülü sistemlerden yapay zekaya kadar uzanan devasa bir **teknoloji haritasıdır**. Burası bir eğitim seti değil; ihtiyacınız olduğunda elinizi atabileceğiniz, uca uca sistemler kurarken size rehberlik edecek bir **dijital zanaatkar cephaneliği**'dir.
+## 📜 Zanaatkarın Manifestosu
 
-> [!TIP]
-> Bu listeyi bir okuma kitabı olarak değil, projelerinizde doğru silahı (teknolojiyi) seçmek için bir **seyir defteri** olarak kullanın.
+> "Yazılım, sadece makineler için komutlar yazmak değildir; karmaşıklığı düzene, kaosu estetiğe dönüştürme sanatıdır."
+
+**Dev-Cephaneliği**, bir teknoloji yığını değil; bir **zihin yapısıdır**. Burada listelenen her araç, bir zanaatkarın elindeki çekiç, keski veya fırça gibidir. Bir ustanın farkı, alet çantasına ne koyduğunu değil; o aletle hangi problemi nasıl çözdüğünü bilmesidir. 
+
+Bu depo; merakını asla kaybetmeyen, "bu neden böyle?" diye sormaktan korkmayan ve kodun ötesindeki felsefeyi arayan tüm **dijital zanaatkarlar** için inşa edilmiştir.
 
 ---
 
 ## 🎨 Öğrenme Sanatı & Stratejisi
 
-Bir teknoloji yığınını (stack) sadece ezberlemek sizi bir "operatör" yapar; ama işin mantığını kavramak sizi bir **"zanaatkar"** (artisan) yapar. İşte bu cephaneliği kullanırken izlemeniz gereken strateji:
+Bir teknoloji yığınını (stack) sadece ezberlemek sizi bir "operatör" yapar; ama işin mantığını kavramak sizi bir **"zanaatkar"** (artisan) yapar. 
 
-### 1. 🧩 İlk İlkeler Düşüncesi (First Principles)
-Bir şeyi öğrenirken "bu nasıl çalışır?" diye sormak yerine "bu neden var?" diye sorun. Örneğin; Docker'ı öğrenmeden önce, işletim sistemlerinin süreçleri (processes) nasıl izole ettiğini anlamaya çalışın. Temelleri sağlam olanın, üstüne inşa edeceği bina yıkılmaz.
+### 🏗️ Masterclass Öğrenme Döngüsü
 
-### 2. 💡 Feynman Tekniği
-Bir konuyu öğrendiğinizi düşünüyorsanız, onu hiç bilmeyen birine anlatmaya çalışın. Eğer basit cümlelerle anlatamıyorsanız, o konuyu tam olarak kavramamışsınız demektir. Boşlukları bulun ve tekrar temellere dönün.
+```mermaid
+graph LR
+    A[🔍 Merak & Neden?] --> B[📖 Teori & İlk İlkeler]
+    B --> C[🛠️ İnşa Et & Hata Yap]
+    C --> D[🧩 Derinleş & Optimize Et]
+    D --> E[📢 Aktar & Öğret]
+    E --> A
+    style A fill:#f9f,stroke:#333,stroke-width:4px
+    style C fill:#00ff00,stroke:#333,stroke-width:2px
+    style E fill:#00ffff,stroke:#333,stroke-width:2px
+```
 
-### 3. 🏗️ Yaparak Öğren (Project-Based Learning)
-Teori sizi bir yere kadar götürür. Gerçek öğrenme, kodunuz hata verdiğinde ve o hatayı çözmek için saatlerinizi harcadığınızda başlar. Her kategoride kendinize küçük bir proje belirleyin ve inşa edin.
-
-### 4. 📐 T-Shaped Gelişim Modeli
-Her şeyi bilmek imkansızdır. Bir alanda (örneğin Backend) dikeyde uzmanlaşın (T'nin dikey çizgisi), diğer tüm kategorilerde ise genel bir kültür sahibi olun (T'nin yatay çizgisi). Bu, size hem derinlik hem de adaptasyon yeteneği kazandırır.
+### 🧠 Stratejik Yaklaşımlar
+*   **🧩 İlk İlkeler (First Principles):** Temele inin. Bir aracın "nasıl"ından önce, çözdüğü "problemi" anlayın.
+*   **💡 Feynman Tekniği:** Basitleştirin. Bir konuyu 5 yaşındaki bir çocuğa anlatabiliyorsanız, onu gerçekten anlamışsınızdır.
+*   **📐 T-Shaped Model:** Bir alanda okyanus kadar derin (Uzmanlık), diğerlerinde kıyı kadar geniş (Kültür) olun.
 
 ---
 
 ## 🗺️ Teknoloji Ekosistemi
 
-### 🏗️ 1. Temel Programlama Dilleri & Mantık
+### 🏗️ 1. [Temel Programlama Dilleri & Mantık](./01-Temel-Programlama-Dilleri-Mantik)
+*Mantığın ruhu ve düşüncenin alfabesi.*
 [![My Skills](https://skillicons.dev/icons?i=py,cpp,c,cs,js,ts,go,rust,java,solidity,haskell,elixir,clojure,erlang,julia,php,ruby,perl,zig,r,fortran,swift,kotlin,dart,lua,forth,nim,ocaml,scala,wasm)](https://skillicons.dev)
 
-### 🧠 2. Yapay Zeka, Veri & Zeka
+### 🧠 2. [Yapay Zeka, Veri & Zeka](./02-Yapay-Zeka-Veri-Zeka)
+*Verinin kehaneti ve makinelerin rüyası.*
 [![My Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,numpy,pandas,matlab,anaconda,d3,grafana,prometheus,regex)](https://skillicons.dev)
 
-### 🛡️ 3. Altyapı, Bulut & DevOps
+### 🛡️ 3. [Altyapı, Bulut & DevOps](./03-Altyapi-Bulut-DevOps)
+*Sistemlerin orkestrasyonu ve görünmez mimari.*
 [![My Skills](https://skillicons.dev/icons?i=docker,kubernetes,git,github,gitlab,jenkins,aws,gcp,azure,nginx,cloudflare,terraform,ansible,vagrant,vercel,netlify,heroku)](https://skillicons.dev)
 
-### 🌐 4. Web, Mobil & Çalışma Ortamları
+### 🌐 4. [Web, Mobil & Çalışma Ortamları](./04-Web-Mobil-Calisma-Ortamlari)
+*Dijital dünyanın kapısı ve kullanıcı deneyimi.*
 [![My Skills](https://skillicons.dev/icons?i=html,css,react,nextjs,angular,vue,svelte,tailwind,bootstrap,sass,nodejs,express,fastapi,flask,django,nestjs,laravel,rails,deno,bun,apollo,graphql,flutter)](https://skillicons.dev)
 
-### 📟 5. Gömülü Sistemler, IoT & İşletim Sistemleri
+### 📟 5. [Gömülü Sistemler, IoT & İşletim Sistemleri](./05-Gomulu-Sistemler-IoT-OS)
+*Donanım ile yazılımın fiziksel dansı.*
 [![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,debian,fedora,kali,arch,apple,windows,arduino,raspberrypi,unity,unreal,godot)](https://skillicons.dev)
 
-### 🧰 6. Araçlar & Tasarım Seti
+### 🧰 6. [Araçlar & Tasarım Seti](./06-Araclar-Tasarim-Seti)
+*Ustanın atölyesi ve verimlilik araçları.*
 [![My Skills](https://skillicons.dev/icons?i=vscode,visualstudio,vim,neovim,emacs,postman,npm,yarn,pnpm,figma,blender,photoshop,illustrator,obsidian,notion,discord,slack)](https://skillicons.dev)
 
-### 🗄️ 7. Veritabanları & Depolama
+### 🗄️ 7. [Veritabanları & Depolama](./07-Veritabanlari-Depolama)
+*Sonsuz hafıza ve verinin düzeni.*
 [![My Skills](https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite,redis,cassandra,dynamodb,neo4j,supabase,firebase)](https://skillicons.dev)
 
-### ♾️ 8. Meta & Verimlilik
+### ♾️ 8. [Meta & Verimlilik](./08-Meta-Verimlilik)
+*Küresel bağlantı ve kolektif zeka.*
 [![My Skills](https://skillicons.dev/icons?i=github,gitlab,discord,slack,instagram,linkedin,twitter,markdown)](https://skillicons.dev)
 
 ---
 
-## 📈 Gelişim Yol Haritası (Roadmap)
-
-```mermaid
-graph TD
-    A[Başlangıç: Temel Diller & Mantık] --> B{Alan Seçimi}
-    B --> C[Web & Mobil Geliştirme]
-    B --> D[AI & Veri Bilimi]
-    B --> E[Sistem & Gömülü Sistemler]
-    
-    C --> C1[Frontend / Backend]
-    C --> C2[DevOps & Bulut]
-    
-    D --> D1[Veri Analizi / ML]
-    D --> D2[Zeka & LLM]
-    
-    E --> E1[Kernel / OS]
-    E --> E2[IoT / Robotik]
-    
-    C1 & C2 --> F[Full-Stack Architect]
-    D1 & D2 --> G[AI Specialist]
-    E1 & E2 --> H[Systems Architect]
-    
-    F & G & H --> I[🚀 Teknoloji Lideri / Zanaatkar]
-```
-
----
-
-## 📂 Dizin Yapısı
-
-| Dizin | Açıklama |
-| :--- | :--- |
-| [01-Temel-Diller-Mantık](./01-Temel-Programlama-Dilleri-Mantik) | Temel programlama dilleri ve mantıksal yapılar. |
-| [02-AI-Veri-Zeka](./02-Yapay-Zeka-Veri-Zeka) | Yapay zeka, veri bilimi ve analitik araçlar. |
-| [03-Altyapı-Bulut-DevOps](./03-Altyapi-Bulut-DevOps) | Bulut sistemleri, orkestrasyon ve DevOps. |
-| [04-Web-Mobil](./04-Web-Mobil-Calisma-Ortamlari) | Web, mobil ve modern çalışma frameworkleri. |
-| [05-Gömülü-IoT-OS](./05-Gomulu-Sistemler-IoT-OS) | İşletim sistemleri, IoT ve oyun motorları. |
-| [06-Araçlar-Tasarım](./06-Araclar-Tasarim-Seti) | IDE'ler, tasarım araçları ve verimlilik setleri. |
-| [07-Veritabanları-Depolama](./07-Veritabanlari-Depolama) | İlişkisel, NoSQL ve modern depolama çözümleri. |
-| [08-Meta-Verimlilik](./08-Meta-Verimlilik) | İletişim, sosyal ağlar ve meta verimlilik araçları. |
-
----
-
 ## 🤝 Katkıda Bulunma
-
-Bu liste yaşayan bir dökümandır. Yeni nesil bir araç veya dil keşfettiyseniz, lütfen bir **Pull Request (PR)** açın!
-
+Bu guild'e (loncaya) katılmak ve cephaneliği genişletmek için:
 <p align="center">
   <a href="CONTRIBUTING.md">Katkı Rehberi</a> • 
   <a href="CODE_OF_CONDUCT.md">Davranış Kuralları</a>

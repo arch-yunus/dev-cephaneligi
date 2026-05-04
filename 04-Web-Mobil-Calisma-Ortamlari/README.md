@@ -2,45 +2,26 @@
 
 # 🌐 Web, Mobil & Çalışma Ortamları
 
-Kullanıcıyla etkileşime geçen tüm arayüzlerin ve arka plan servislerinin inşa edildiği frameworkler.
+## 🎭 Zanaatkarın Bakış Açısı
+Burası, yazılımın insanla el sıkıştığı noktadır. Kullanıcı arayüzü sadece renkler ve butonlar değil; bir deneyimin felsefesidir. Web, evrensel bir işletim sistemine dönüşürken; mobil ise hayatımızın her anına eşlik eden bir parçadır. Bir zanaatkar olarak burada estetik ve performans arasındaki o ince çizgide yürürüz.
 
-## 💡 Neden Buradayız? (Merak Uyandır!)
-Yazılımın dış dünyaya açılan kapısı burası. İnsanların her gün dokunduğu, tıkladığı ve vakit geçirdiği dijital deneyimleri burada inşa ediyoruz. Web artık sadece bir döküman görüntüleyici değil; tarayıcı üzerinde çalışan devasa bir işletim sistemine dönüştü.
+## 🛠️ Nasıl Başlamalıyım?
+1. **Piksel Titizliği:** CSS ve Layout mantığını sadece "çalışsın" diye değil, "kusursuz olsun" diye öğrenin.
+2. **State Management:** Verinin uygulama içinde nasıl aktığını ve saklandığını (Redux/Zustand vb.) kavrayın.
+3. **Cross-Platform Gücü:** Flutter veya React Native ile tek bir zihin yapısıyla tüm cihazlara ulaşmayı deneyimleyin.
 
-## 🛠️ Nasıl Başlamalıyım? (Yönlendir!)
-1. **Temeller (HTML/CSS/JS):** Bu üçlü olmadan hiçbir yere gidemezsiniz.
-2. **Bir Framework Seç:** React veya Next.js ile modern web geliştirmeye adım atın.
-3. **Backend & API:** Node.js veya Python (FastAPI) ile verinizi dünyaya açın.
-4. **Mobil Dünya:** Flutter ile tek bir kodla hem iOS hem Android dünyasına girin.
+## 📚 Kutsal Kitaplar & Kaynaklar
+- **Don't Make Me Think** - Steve Krug (Kullanıcı deneyimi için)
+- **You Don't Know JS** - Kyle Simpson (JavaScript'in derinlikleri)
+- **Refactoring UI** - Adam Wathan & Steve Schoger
+
+## 🚀 Zanaatkarlık Görevleri
+- **Çırak:** Tamamen responsive, dark mode destekli kişisel bir portfolyo sitesi yap.
+- **Kalfa:** Gerçek zamanlı bir sohbet uygulaması (Socket.io/Firebase) geliştir.
+- **Usta:** Next.js ve GraphQL kullanarak, yüksek performanslı ve SEO uyumlu bir E-ticaret platformu inşa et.
 
 ## 🚀 Teknolojiler
-- HTML
-- CSS
-- React
-- Next.js
-- Angular
-- Vue
-- Svelte
-- SolidJS
-- Astro
-- HTMX
-- Tailwind CSS
-- Bootstrap
-- Sass
-- Node.js
-- Express
-- FastAPI
-- Flask
-- Django
-- NestJS
-- Laravel
-- Rails
-- Deno
-- Bun
-- Cloudflare Workers
-- Apollo
-- GraphQL
-- Flutter
+- HTML, CSS, React, Next.js, Angular, Vue, Svelte, SolidJS, Astro, HTMX, Tailwind CSS, Bootstrap, Sass, Node.js, Express, FastAPI, Flask, Django, NestJS, Laravel, Rails, Deno, Bun, Cloudflare Workers, Apollo, GraphQL, Flutter.
 
 ---
 [⬆️ Başa Dön](../README.md)
