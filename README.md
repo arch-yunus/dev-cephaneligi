@@ -19,13 +19,9 @@
 
 **Dev-Cephaneliği**, bir teknoloji yığını değil; bir **zihin yapısıdır**. Burada listelenen her araç, bir zanaatkarın elindeki çekiç, keski veya fırça gibidir. Bir ustanın farkı, alet çantasına ne koyduğunu değil; o aletle hangi problemi nasıl çözdüğünü bilmesidir. 
 
-Bu depo; merakını asla kaybetmeyen, "bu neden böyle?" diye sormaktan korkmayan ve kodun ötesindeki felsefeyi arayan tüm **dijital zanaatkarlar** için inşa edilmiştir.
-
 ---
 
 ## 🎨 Öğrenme Sanatı & Stratejisi
-
-Bir teknoloji yığınını (stack) sadece ezberlemek sizi bir "operatör" yapar; ama işin mantığını kavramak sizi bir **"zanaatkar"** (artisan) yapar. 
 
 ### 🏗️ Masterclass Öğrenme Döngüsü
 
@@ -48,43 +44,69 @@ graph LR
 
 ---
 
-## 🗺️ Teknoloji Ekosistemi
+## 🏛️ Zanaatkarlığın Sütunları (The Pillars)
 
-### 🏗️ 1. [Temel Programlama Dilleri & Mantık](./01-Temel-Programlama-Dilleri-Mantik)
-*Mantığın ruhu ve düşüncenin alfabesi.*
-[![My Skills](https://skillicons.dev/icons?i=py,cpp,c,cs,js,ts,go,rust,java,solidity,haskell,elixir,clojure,erlang,julia,php,ruby,perl,zig,r,fortran,swift,kotlin,dart,lua,forth,nim,ocaml,scala,wasm)](https://skillicons.dev)
+Teknolojiler değişir ama **prensipler bakidir**. Bu cephanelikteki araçları kullanırken şu sütunlara yaslanın:
 
-### 🧠 2. [Yapay Zeka, Veri & Zeka](./02-Yapay-Zeka-Veri-Zeka)
-*Verinin kehaneti ve makinelerin rüyası.*
-[![My Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,numpy,pandas,matlab,anaconda,d3,grafana,prometheus,regex)](https://skillicons.dev)
-
-### 🛡️ 3. [Altyapı, Bulut & DevOps](./03-Altyapi-Bulut-DevOps)
-*Sistemlerin orkestrasyonu ve görünmez mimari.*
-[![My Skills](https://skillicons.dev/icons?i=docker,kubernetes,git,github,gitlab,jenkins,aws,gcp,azure,nginx,cloudflare,terraform,ansible,vagrant,vercel,netlify,heroku)](https://skillicons.dev)
-
-### 🌐 4. [Web, Mobil & Çalışma Ortamları](./04-Web-Mobil-Calisma-Ortamlari)
-*Dijital dünyanın kapısı ve kullanıcı deneyimi.*
-[![My Skills](https://skillicons.dev/icons?i=html,css,react,nextjs,angular,vue,svelte,tailwind,bootstrap,sass,nodejs,express,fastapi,flask,django,nestjs,laravel,rails,deno,bun,apollo,graphql,flutter)](https://skillicons.dev)
-
-### 📟 5. [Gömülü Sistemler, IoT & İşletim Sistemleri](./05-Gomulu-Sistemler-IoT-OS)
-*Donanım ile yazılımın fiziksel dansı.*
-[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,debian,fedora,kali,arch,apple,windows,arduino,raspberrypi,unity,unreal,godot)](https://skillicons.dev)
-
-### 🧰 6. [Araçlar & Tasarım Seti](./06-Araclar-Tasarim-Seti)
-*Ustanın atölyesi ve verimlilik araçları.*
-[![My Skills](https://skillicons.dev/icons?i=vscode,visualstudio,vim,neovim,emacs,postman,npm,yarn,pnpm,figma,blender,photoshop,illustrator,obsidian,notion,discord,slack)](https://skillicons.dev)
-
-### 🗄️ 7. [Veritabanları & Depolama](./07-Veritabanlari-Depolama)
-*Sonsuz hafıza ve verinin düzeni.*
-[![My Skills](https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite,redis,cassandra,dynamodb,neo4j,supabase,firebase)](https://skillicons.dev)
-
-### ♾️ 8. [Meta & Verimlilik](./08-Meta-Verimlilik)
-*Küresel bağlantı ve kolektif zeka.*
-[![My Skills](https://skillicons.dev/icons?i=github,gitlab,discord,slack,instagram,linkedin,twitter,markdown)](https://skillicons.dev)
+1.  **SOLID & Temiz Kod:** Kodunuzun bir şiir gibi okunmasını sağlayın. Sadece çalışan kod değil, başkalarının (ve 6 ay sonraki kendinizin) anlayabileceği kod üretin.
+2.  **DRY (Don't Repeat Yourself):** Tekrar, hatanın anasıdır. Mantığı tek bir yerde tutun, sistemin her yerine yaymayın.
+3.  **KISS (Keep It Simple, Stupid):** Karmaşıklık bir marifet değildir. En iyi çözüm, en basit olandır.
+4.  **YAGNI (You Ain't Gonna Need It):** İhtiyacınız olmayan özellikleri "belki lazım olur" diye eklemeyin. Kodun her satırı bir maliyettir.
+5.  **Boy Scout Rule:** Baktığınız kodu bulduğunuzdan daha temiz bırakın.
 
 ---
 
-## 🤝 Katkıda Bulunma
+## 🚀 Evrimsel Yol Haritası (Evolutionary Roadmap)
+
+Bir zanaatkarın yolculuğu doğrusal değildir, ancak şu aşamalar size rehberlik edebilir:
+
+### 🐣 Aşama 1: Temellerin İnşası (The Apprentice)
+*   **Odak:** Programlama Mantığı, Algoritmalar, Terminal kullanımı.
+*   **Hedef:** Bir dili (Python/C++) akıcı konuşmak ve "problem çözme" yeteneği kazanmak.
+*   **Cephanelik Bölümü:** [1. Temel Diller & Mantık](./01-Temel-Programlama-Dilleri-Mantik)
+
+### 🏗️ Aşama 2: Mimari & Veri (The Journeyman)
+*   **Odak:** Web/Mobil Frameworkler, Veritabanları, API Tasarımı.
+*   **Hedef:** Uçtan uca çalışan, veri saklayan ve kullanıcıyla konuşan sistemler kurmak.
+*   **Cephanelik Bölümü:** [4. Web & Mobil](./04-Web-Mobil-Calisma-Ortamlari), [7. Veritabanları](./07-Veritabanlari-Depolama)
+
+### 🎼 Aşama 3: Orkestrasyon & Güvenlik (The Specialist)
+*   **Odak:** DevOps, Cloud, Siber Güvenlik, Ölçeklenebilirlik.
+*   **Hedef:** Binlerce kullanıcıya hizmet veren, asla çökmeyen ve güvenli sistemler yönetmek.
+*   **Cephanelik Bölümü:** [3. Altyapı & DevOps](./03-Altyapi-Bulut-DevOps), [5. Gömülü Sistemler & OS](./05-Gomulu-Sistemler-IoT-OS)
+
+### 👁️‍🗨️ Aşama 4: Vizyon & Gelecek (The Master)
+*   **Odak:** Yapay Zeka, Büyük Veri, Meta-Verimlilik.
+*   **Hedef:** Teknolojiyi sadece kullanmak değil, geleceği inşa etmek ve topluluğa liderlik etmek.
+*   **Cephanelik Bölümü:** [2. AI & Veri](./02-Yapay-Zeka-Veri-Zeka), [8. Meta & Verimlilik](./08-Meta-Verimlilik)
+
+---
+
+## 🗺️ Teknoloji Ekosistemi
+
+| Bölüm | Başlık | Fokus |
+| :--- | :--- | :--- |
+| [🏗️ 1](./01-Temel-Programlama-Dilleri-Mantik) | **Temel Diller & Mantık** | Mantığın ruhu ve düşüncenin alfabesi. |
+| [🧠 2](./02-Yapay-Zeka-Veri-Zeka) | **Yapay Zeka & Veri** | Verinin kehaneti ve makinelerin rüyası. |
+| [🛡️ 3](./03-Altyapi-Bulut-DevOps) | **Altyapı & DevOps** | Sistemlerin orkestrasyonu ve görünmez mimari. |
+| [🌐 4](./04-Web-Mobil-Calisma-Ortamlari) | **Web & Mobil** | Dijital dünyanın kapısı ve kullanıcı deneyimi. |
+| [📟 5](./05-Gomulu-Sistemler-IoT-OS) | **Gömülü & OS** | Donanım ile yazılımın fiziksel dansı. |
+| [🧰 6](./06-Araclar-Tasarim-Seti) | **Araçlar & Tasarım** | Ustanın atölyesi ve verimlilik araçları. |
+| [🗄️ 7](./07-Veritabanlari-Depolama) | **Veritabanları** | Sonsuz hafıza ve verinin düzeni. |
+| [♾️ 8](./08-Meta-Verimlilik) | **Meta & Verimlilik** | Küresel bağlantı ve kolektif zeka. |
+
+---
+
+## 🧙 Bilgece Tavsiyeler (Sage's Advice)
+
+*   **Tuzak: "Sonsuz Öğrenme Döngüsü":** Sürekli tutorial izleyip hiçbir şey üretmemek en büyük düşmandır. Bir şey öğrenin ve hemen bozun, sonra tekrar yapın.
+*   **Yavaş Öğrenin, Hızlı İnşa Edin:** Temel kavramları (Memory management, Networking) yavaş ve derin öğrenin. Framework'leri ise hızlıca projeler üzerinde kavrayın.
+*   **İnsan İçin Yazın:** Kodunuzu bilgisayarlar anlar ama dökümantasyonunuzu ve temiz kodunuzu insanlar okur. İnsan iletişimini asla küçümsemeyin.
+*   **Zihin Sağlığı:** Bir zanaatkarın en değerli aleti zihnidir. Molaları, uykuyu ve ergonomiyi projenin bir parçası olarak görün.
+
+---
+
+## 📂 Katkıda Bulunma
 Bu guild'e (loncaya) katılmak ve cephaneliği genişletmek için:
 <p align="center">
   <a href="CONTRIBUTING.md">Katkı Rehberi</a> • 
