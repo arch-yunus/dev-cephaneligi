@@ -1,3 +1,5 @@
+[?? Ana Sayfa](../README.md) / **🧠 Yapay Zeka, Veri & Analitik**
+
 # 🧠 Yapay Zeka, Veri & Analitik
 
 Veriden anlam çıkaran, modeller eğiten ve otonom sistemler kuran teknolojiler.
@@ -37,3 +39,6 @@ Veriden anlam çıkaran, modeller eğiten ve otonom sistemler kuran teknolojiler
 - Matlab
 - Octave
 - Anaconda
+
+---
+[?? Ba�a D�n](../README.md)

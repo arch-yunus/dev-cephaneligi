@@ -1,3 +1,5 @@
+[🏠 Ana Sayfa](../README.md) / **🏗️ Temel Programlama Dilleri & Paradigmalar**
+
 # 🏗️ Temel Programlama Dilleri & Paradigmalar
 
 Bir sistemin temelini oluşturan, farklı programlama paradigmalarını (Nesne Yönelimli, Fonksiyonel, Prosedürel) içeren ana diller.
@@ -52,3 +54,6 @@ Bir sistemin temelini oluşturan, farklı programlama paradigmalarını (Nesne Y
 - Pkl
 - Forth
 - Solidity (Web3/Smart Contracts)
+
+---
+[?? Ba�a D�n](../README.md)

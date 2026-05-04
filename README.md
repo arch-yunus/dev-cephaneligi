@@ -1,116 +1,116 @@
 # Dev-Cephaneliği 🛡️⚒️
 
-![Kapsam](https://img.shields.io/badge/kapsam-Tam_Spektrum-orange.svg)
+<p align="center">
+  <img src="assets/banner.png" alt="Dev-Cephaneliği Banner" width="100%">
+</p>
 
-**Dev-Cephaneliği**, modern teknoloji dünyasında bir sistemin temelinden bulut mimarisine, gömülü sistemlerden yapay zekaya kadar uzanan yelpazede, bir geliştiricinin ihtiyaç duyabileceği tüm dillerin, araçların ve teknolojilerin devasa bir haritasıdır. 
-
-Bu depo, "her şeyi aynı anda öğrenmek" için değil; ihtiyacınız olduğunda elinizi atabileceğiniz, vizyonunuzu genişletecek ve uçtan uca (end-to-end) sistem mimarileri kurarken size rehberlik edecek bir **dijital zanaatkar cephaneliği** olarak tasarlanmıştır.
-
----
-
-## 📑 İçindekiler
-1. [🏗️ Temel Programlama Dilleri & Paradigmalar](#1-🏗️-temel-programlama-dilleri--paradigmalar)
-2. [🧠 Yapay Zeka, Veri & Analitik](#2-🧠-yapay-zeka-veri--analitik)
-3. [☁️ Altyapı, Bulut & DevOps](#3-☁️-altyapı-bulut--devops)
-4. [🌐 Web, Mobil & Çalışma Ortamları](#4-🌐-web-mobil--çalışma-ortamları)
-5. [🤖 Gömülü Sistemler, IoT & İşletim Sistemleri](#5-🤖-gömülü-sistemler-iot--işletim-sistemleri)
-6. [🛠️ Geliştirici Araçları & Tasarım Seti](#6-🛠️-geliştirici-araçları--tasarım-seti)
-7. [🗄️ Veritabanları & Veri Depolama](#7-🗄️-veritabanları--veri-depolama)
-8. [🛡️ Siber Güvenlik & Ağ (Yeni)](#8-🛡️-siber-güvenlik--ağ)
-9. [📋 Meta, İletişim & Verimlilik](#9-📋-meta-iletişim--verimlilik)
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/arch-yunus/dev-cephaneligi?style=for-the-badge&color=orange" alt="Repo Size">
+  <img src="https://img.shields.io/github/last-commit/arch-yunus/dev-cephaneligi?style=for-the-badge&color=blue" alt="Last Commit">
+  <img src="https://img.shields.io/github/languages/count/arch-yunus/dev-cephaneligi?style=for-the-badge&color=green" alt="Languages Count">
+  <img src="https://img.shields.io/github/license/arch-yunus/dev-cephaneligi?style=for-the-badge&color=red" alt="License">
+</p>
 
 ---
 
-## 1. 🏗️ Temel Programlama Dilleri & Paradigmalar
-Bir sistemin temelini oluşturan, farklı programlama paradigmalarını (Nesne Yönelimli, Fonksiyonel, Prosedürel) içeren ana diller.
+## 🎯 Vizyon
+**Dev-Cephaneliği**, modern teknoloji dünyasında bir sistemin temelinden bulut mimarisine, gömülü sistemlerden yapay zekaya kadar uzanan devasa bir **teknoloji haritasıdır**. Burası bir eğitim seti değil; ihtiyacınız olduğunda elinizi atabileceğiniz, uca uca sistemler kurarken size rehberlik edecek bir **dijital zanaatkar cephaneliği**'dir.
 
-*   **Sistem & Yüksek Performans:** C, C++, Rust, Zig, Go, Assembly *(Yeni)*.
-*   **Genel Amaçlı & Kurumsal:** Python, Java, C#, Ruby, PHP, Swift, Kotlin.
-*   **Web Dilleri:** JavaScript, TypeScript, Dart, WebAssembly (WASM).
-*   **Fonksiyonel & Eşzamanlılık:** Haskell, Elixir, Clojure, Erlang, OCaml, Scala, F# *(Yeni)*, Lisp *(Yeni)*.
-*   **Bilimsel & Veri:** R, Julia, Fortran.
-*   **Betik & Niş Diller:** Lua, Perl, V, Vala, Haxe, Nim, Pkl, Forth, Solidity (Web3/Smart Contracts).
-
-## 2. 🧠 Yapay Zeka, Veri & Analitik
-Veriden anlam çıkaran, modeller eğiten ve otonom sistemler kuran teknolojiler.
-
-*   **Derin Öğrenme & Makine Öğrenmesi:** TensorFlow, PyTorch, Scikit-learn, Keras *(Yeni)*.
-*   **LLM & Doğal Dil İşleme:** LangChain *(Yeni)*, Hugging Face *(Yeni)*, LlamaIndex *(Yeni)*, Regex.
-*   **Veri İşleme & Analiz:** NumPy, Pandas, Apache Spark *(Yeni)*, Kafka *(Yeni)*, Hadoop *(Yeni)*.
-*   **Görüntü İşleme:** OpenCV.
-*   **Görselleştirme & Gözlem:** D3.js, Grafana, Prometheus, Matplotlib *(Yeni)*, Processing.
-*   **Matematik & Modelleme:** Matlab, Octave, Anaconda.
-
-## 3. ☁️ Altyapı, Bulut & DevOps
-Yazılımın güvenli, ölçeklenebilir ve sürekli çalışmasını sağlayan operasyonel katman.
-
-*   **Konteynerizasyon & Orkestrasyon:** Docker, Kubernetes, Docker Compose *(Yeni)*, Podman *(Yeni)*.
-*   **CI/CD & Sürüm Kontrol:** Git, GitHub, GitLab, GitHub Actions, Jenkins, ArgoCD *(Yeni)*.
-*   **Bulut Sağlayıcıları (Cloud):** AWS, GCP (Google Cloud), Azure, DigitalOcean *(Yeni)*.
-*   **Kod Olarak Altyapı (IaC):** Terraform, Ansible, Pulumi *(Yeni)*, Vagrant.
-*   **Platformlar & Sunucular:** Nginx, Cloudflare, OpenShift, OpenStack, Vercel, Netlify, Heroku, Apache HTTP Server *(Yeni)*.
-*   **İzleme & Loglama:** Datadog *(Yeni)*, ELK Stack (Elasticsearch, Logstash, Kibana) *(Yeni)*.
-
-## 4. 🌐 Web, Mobil & Çalışma Ortamları
-Kullanıcıyla etkileşime geçen tüm arayüzlerin ve arka plan servislerinin inşa edildiği frameworkler.
-
-*   **Frontend (İstemci Tarafı):** HTML, CSS, React, Next.js, Angular, Vue, Svelte, SolidJS, Astro, HTMX.
-*   **Stil & Tasarım Araçları:** Tailwind CSS, Bootstrap, Sass, Styled Components *(Yeni)*.
-*   **Backend (Sunucu Tarafı):** Node.js, Express, FastAPI, Flask, Django, NestJS, Laravel, Rails, Spring Boot *(Yeni)*.
-*   **Runtime & Edge:** Deno, Bun, Cloudflare Workers.
-*   **API Mimari & Protokoller:** GraphQL, Apollo, REST, gRPC *(Yeni)*, WebRTC *(Yeni)*, tRPC *(Yeni)*.
-*   **Mobil & Masaüstü:** Flutter, React Native *(Yeni)*, Electron *(Yeni)*, Tauri *(Yeni)*.
-
-## 5. 🤖 Gömülü Sistemler, IoT & İşletim Sistemleri
-Yazılımın fiziksel dünyayla buluştuğu donanım seviyesi ve işletim sistemi mimarileri.
-
-*   **İşletim Sistemleri & Çekirdek:** Linux (Ubuntu, Debian, Fedora, Kali Linux, Arch Linux, Linux Mint, RedHat), BSD, Nix, Plan9, Apple (macOS/iOS), Windows.
-*   **Robotik & IoT:** ROS (Robot Operating System), Arduino, Raspberry Pi, ESP32 *(Yeni)*, FreeRTOS *(Yeni)*, Yocto Project *(Yeni)*.
-*   **Oyun & Simülasyon Motorları:** Unity, Unreal Engine, Godot, Bevy.
-*   **Sanallaştırma:** QEMU *(Yeni)*, VMware *(Yeni)*.
-
-## 6. 🛠️ Geliştirici Araçları & Tasarım Seti
-Geliştiricinin günlük iş akışını hızlandıran IDE'ler, paket yöneticileri ve tasarım programları.
-
-*   **Editörler & IDE'ler:** VS Code, Visual Studio, Neovim, Vim, Emacs, Sublime Text, CLion, PyCharm, IntelliJ IDEA, WebStorm *(Yeni)*.
-*   **Terminal & Shell:** Zsh *(Yeni)*, Bash *(Yeni)*, Tmux *(Yeni)*, Windows Terminal *(Yeni)*.
-*   **Paket Yöneticileri:** NPM, Yarn, PNPM, pip, Cargo, Homebrew *(Yeni)*.
-*   **Tasarım & Modelleme:** Figma, Adobe Photoshop, Illustrator, Premiere Pro, After Effects, Adobe XD, Blender, AutoCAD, SketchUp, draw.io *(Yeni)*.
-*   **Test & API Araçları:** Postman, Insomnia *(Yeni)*, Swagger *(Yeni)*.
-
-## 7. 🗄️ Veritabanları & Veri Depolama
-Verinin yapısına, erişim hızına ve büyüklüğüne göre sınıflandırılan depolama teknolojileri.
-
-*   **İlişkisel Veritabanları (RDBMS):** PostgreSQL, MySQL, SQLite, MariaDB *(Yeni)*.
-*   **NoSQL & Doküman Tabanlı:** MongoDB, CouchDB *(Yeni)*.
-*   **Anahtar-Değer & Önbellek:** Redis, Memcached *(Yeni)*.
-*   **Geniş Sütun & Grafik:** Cassandra, Neo4j.
-*   **Modern Platformlar (BaaS):** Supabase, Appwrite, Firebase, PlanetScale, DynamoDB.
-*   **Vektör Veritabanları (AI İçin):** Milvus *(Yeni)*, Qdrant *(Yeni)*, Pinecone *(Yeni)*.
-
-## 8. 🛡️ Siber Güvenlik & Ağ *(Yeni Eklenen)*
-Sistemleri korumak ve ağ trafiğini yönetmek için gereken araçlar.
-*   **Ağ Analizi:** Wireshark, tcpdump.
-*   **Sızma Testi & Tarama:** Nmap, Metasploit, Burp Suite.
-*   **Kriptografi & Güvenlik:** OpenSSL, OpenVPN, WireGuard.
-
-## 9. 📋 Meta, İletişim & Verimlilik
-Yazılım ekosistemindeki bilgi paylaşımı, proje yönetimi ve topluluk ağları.
-
-*   **Bilgi & Kod Paylaşımı:** Stack Overflow, GitHub, GitLab, Bitbucket.
-*   **Not Alma & Proje Yönetimi:** Obsidian, Notion, Jira *(Yeni)*, Trello *(Yeni)*, Linear *(Yeni)*, Markdown.
-*   **İletişim & Topluluk:** Discord, Slack, Microsoft Teams *(Yeni)*.
-*   **Sosyal Ağlar & Protokoller:** LinkedIn, Twitter (X), Fediverse, ActivityPub, Instagram.
+> [!TIP]
+> Bu listeyi bir okuma kitabı olarak değil, projelerinizde doğru silahı (teknolojiyi) seçmek için bir **seyir defteri** olarak kullanın.
 
 ---
 
-## 🚀 Bu Repoyu Nasıl Kullanmalısınız?
+## 🗺️ Teknoloji Ekosistemi
 
-Bu liste bir okuma kitabı değil, bir **seyir defteridir**. Hepsini aynı anda öğrenmeye çalışmak tükenmişliğe (burnout) yol açar. Önerilen kullanım şekli:
+### 🏗️ Temel Programlama & Paradigmalar
+[![My Skills](https://skillicons.dev/icons?i=c,cpp,rust,zig,go,py,java,cs,ruby,php,swift,kotlin,js,ts,dart,haskell,elixir,clojure,erlang,scala,lua,perl,nim,solidity,wasm)](https://skillicons.dev)
 
-1. **İhtiyaca Göre Seçin:** Bir proje geliştirirken hangi araca ihtiyacınız varsa o kategoriye odaklanın. (Örn: Web arayüzü yapacaksanız 4. kategoriye, donanıma inecekseniz 5. kategoriye gidin).
-2. **Derinleşin (T-Shaped Model):** Önce tek bir dilde/araçta çok derinleşin (T'nin dikey çizgisi), ardından bu repodaki diğer disiplinler hakkında genel kültür seviyesinde bilgi sahibi olun (T'nin yatay çizgisi).
-3. **Kendi Stack'inizi Oluşturun:** Bu cephanelikten silahlarınızı seçip kendi "Tech Stack"inizi (Teknoloji Yönünüzü) belirleyin.
+### 🧠 Yapay Zeka, Veri & Analitik
+[![My Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,regex,numpy,pandas,spark,kafka,hadoop,opencv,grafana,prometheus,matlab,anaconda)](https://skillicons.dev)
+
+### ☁️ Altyapı, Bulut & DevOps
+[![My Skills](https://skillicons.dev/icons?i=docker,kubernetes,git,github,gitlab,jenkins,aws,gcp,azure,terraform,ansible,nginx,cloudflare,vercel,netlify,heroku)](https://skillicons.dev)
+
+### 🌐 Web, Mobil & Frameworkler
+[![My Skills](https://skillicons.dev/icons?i=html,css,react,nextjs,angular,vue,svelte,tailwind,bootstrap,sass,nodejs,express,fastapi,flask,django,nestjs,laravel,rails,spring,flutter,electron)](https://skillicons.dev)
+
+### 🤖 Sistemler, IoT & Oyun Motorları
+[![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,debian,fedora,kali,arch,apple,windows,arduino,raspberrypi,unity,unreal,godot)](https://skillicons.dev)
+
+### 🛠️ Geliştirici Araçları & Tasarım
+[![My Skills](https://skillicons.dev/icons?i=vscode,visualstudio,neovim,vim,emacs,npm,yarn,pnpm,figma,photoshop,illustrator,postman)](https://skillicons.dev)
+
+### 🗄️ Veritabanları & Veri Depolama
+[![My Skills](https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redis,cassandra,neo4j,supabase,firebase,dynamodb)](https://skillicons.dev)
+
+---
+
+## 📈 Gelişim Yol Haritası (Roadmap)
+
+```mermaid
+graph TD
+    A[Başlangıç: Temel Diller] --> B{Alan Seçimi}
+    B --> C[Web & Mobil Geliştirme]
+    B --> D[Veri Bilimi & AI]
+    B --> E[Sistem & Gömülü Sistemler]
+    
+    C --> C1[Frontend]
+    C --> C2[Backend]
+    C --> C3[Cloud & DevOps]
+    
+    D --> D1[Veri Analizi]
+    D --> D2[Makine Öğrenmesi]
+    D --> D3[LLM & NLP]
+    
+    E --> E1[Linux Kernel]
+    E --> E2[IoT & Robotik]
+    E --> E3[Oyun Motorları]
+    
+    C1 & C2 & C3 --> F[Full-Stack Architect]
+    D1 & D2 & D3 --> G[AI Engineer]
+    E1 & E2 & E3 --> H[Systems Architect]
+    
+    F & G & H --> I[🚀 Teknoloji Lideri / Zanaatkar]
+```
+
+---
+
+## 📂 Dizin Yapısı
+
+| Dizin | Açıklama |
+| :--- | :--- |
+| [01-Temel-Diller](./01-Temel-Programlama-Dilleri-Paradigmalar) | Sistem, Nesne Yönelimli ve Fonksiyonel diller. |
+| [02-AI-Veri](./02-Yapay-Zeka-Veri-Analitik) | ML, DL, LLM ve Veri analizi araçları. |
+| [03-DevOps](./03-Altyapi-Bulut-DevOps) | Bulut, IaC ve CI/CD süreçleri. |
+| [04-Web-Mobil](./04-Web-Mobil-Calisma-Ortamlari) | Modern frameworkler ve runtime ortamları. |
+| [05-Gömülü-Sistemler](./05-Gomulu-Sistemler-IoT-Isletim-Sistemleri) | OS, IoT ve Oyun motorları. |
+| [06-Araçlar-Tasarım](./06-Gelistirici-Araclari-Tasarim-Seti) | IDE'ler, Terminal ve Tasarım setleri. |
+| [07-Veritabanları](./07-Veritabanlari-Veri-Depolama) | RDBMS, NoSQL ve Vektör veritabanları. |
+| [08-Siber-Güvenlik](./08-Siber-Guvenlik-Ag) | Ağ analizi ve sızma testi araçları. |
+| [09-Meta-Verimlilik](./09-Meta-Iletisim-Verimlilik) | Proje yönetimi ve iletişim araçları. |
+
+---
+
+## 🚀 Nasıl Kullanılır?
+
+1. **İhtiyaca Göre Odaklan:** Bir proje geliştirirken hangi kategoriye ihtiyacın varsa oraya derinleş.
+2. **T-Shaped Model:** Bir alanda uzmanlaşırken diğer alanlarda genel kültür sahibi ol.
+3. **Kendi Stack'ini Belirle:** Bu cephanelikten en iyi araçları seç ve kendi imzanı at.
+
+---
 
 ## 🤝 Katkıda Bulunma
-Bu liste sürekli evrilen teknoloji dünyasıyla birlikte güncellenecektir. Eklenmesi gerektiğini düşündüğünüz devrimsel bir araç veya yeni bir dil varsa, lütfen bir **Pull Request (PR)** açmaktan çekinmeyin.
+
+Bu liste yaşayan bir dökümandır. Yeni nesil bir araç veya dil keşfettiyseniz, lütfen bir **Pull Request (PR)** açın!
+
+<p align="center">
+  <a href="CONTRIBUTING.md">Katkı Rehberi</a> • 
+  <a href="CODE_OF_CONDUCT.md">Davranış Kuralları</a>
+</p>
+
+---
+
+<p align="center">
+  Geliştirenler için, geliştirenler tarafından... ❤️
+</p>
