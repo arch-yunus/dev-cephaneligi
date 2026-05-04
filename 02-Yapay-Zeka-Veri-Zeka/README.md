@@ -49,3 +49,9 @@ AI, verinin ham halini zekaya dönüştürme sanatıdır. Bir zanaatkar burada h
 - [ ] Model çıkarım süresi (Inference Latency) ölçüldü mü?
 - [ ] Veri drifti (Data Drift) izleme mekanizması kuruldu mu?
 - [ ] Etik ve yanlılık kontrolleri yapıldı mı?
+
+## 🏆 Onur Listesi (Hall of Fame)
+- **Alan Turing:** Modern bilgisayar bilimi ve yapay zekanın teorik babası.
+- **Geoffrey Hinton:** Derin öğrenmenin (Deep Learning) öncüsü.
+- **Yann LeCun:** CNN (Convolutional Neural Networks) mimarisinin yaratıcısı.
+- **Andrej Karpathy:** Modern LLM ve Computer Vision dünyasının liderlerinden.

@@ -49,3 +49,9 @@ Usta, aletlerini en verimli şekilde kullanan kişidir. Burada teknoloji, yarat�
 - [ ] Bağımlılıklar (Dependencies) güvenlik taramasından geçirildi mi?
 - [ ] README ve kullanım kılavuzları tamamlandı mı?
 - [ ] Versiyonlama (SemVer) kurallarına uyuldu mu?
+
+## 🏆 Onur Listesi (Hall of Fame)
+- **Bill Joy:** Vi editörünün ve Java'nın kilit mimarlarından.
+- **Bram Moolenaar:** Vim'in yaratıcısı.
+- **Anders Hejlsberg:** Turbo Pascal, Delphi, C# ve TypeScript'in arkasındaki deha.
+- **Ryan Dahl:** Node.js ve Deno'nun yaratıcısı.

@@ -49,3 +49,9 @@ Web ve mobil, yazılımın dış dünyayla temas ettiği deri gibidir. Bir zanaa
 - [ ] Güvenlik başlıkları (Security Headers) eklendi mi?
 - [ ] Cross-browser testleri tamamlandı mı?
 - [ ] CDN (Content Delivery Network) entegrasyonu sağlandı mı?
+
+## 🏆 Onur Listesi (Hall of Fame)
+- **Tim Berners-Lee:** World Wide Web'in (WWW) mucidi.
+- **Håkon Wium Lie:** CSS'in yaratıcısı.
+- **Brendan Eich:** JavaScript'in yaratıcısı.
+- **Dan Abramov:** React ve modern frontend ekosisteminin şekillenmesinde kilit isim.

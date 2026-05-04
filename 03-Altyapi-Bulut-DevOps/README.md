@@ -49,3 +49,9 @@ DevOps, sistemlerin sürdürülebilirliğini sağlayan görünmez güçtür. Bir
 - [ ] Backup ve Disaster Recovery planı hazır mı?
 - [ ] SSL/TLS sertifikaları güncel mi?
 - [ ] Alarm ve izleme (Alerting/Monitoring) sistemleri aktif mi?
+
+## 🏆 Onur Listesi (Hall of Fame)
+- **Gene Kim:** DevOps akımının ve Phoenix Project'in arkasındaki isim.
+- **Kelsey Hightower:** Kubernetes ve Cloud Native ekosisteminin sesi.
+- **Brendan Gregg:** Sistem performansı ve gözlemlenebilirlik (observability) ustası.
+- **Mitchell Hashimoto:** Terraform ve HashiCorp araçlarının yaratıcısı.

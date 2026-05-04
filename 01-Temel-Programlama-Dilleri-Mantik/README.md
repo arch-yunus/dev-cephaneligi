@@ -49,3 +49,9 @@ Programlama dilleri düşüncenin alfabesidir. Bir zanaatkar için dil, sadece s
 - [ ] Bellek sızıntısı (Memory Leak) analizi yapıldı mı?
 - [ ] Hata yönetimi (Error Handling) tüm uç durumları kapsıyor mu?
 - [ ] Loglama mekanizması (Structured Logging) kuruldu mu?
+
+## 🏆 Onur Listesi (Hall of Fame)
+- **Dennis Ritchie:** C dilinin yaratıcısı ve modern programlamanın atası.
+- **Bjarne Stroustrup:** C++ dilinin yaratıcısı.
+- **Grace Hopper:** İlk derleyici (compiler) fikrinin öncüsü ve COBOL'un annesi.
+- **Linus Torvalds:** Git ve Linux'un yaratıcısı.

@@ -49,3 +49,9 @@ Kodun donanımla el sıkıştığı en saf katman. Bir zanaatkar burada mikro sa
 - [ ] Firmware güncelleme (OTA) mekanizması kuruldu mu?
 - [ ] Kritik zamanlama (Timing) analizleri tamamlandı mı?
 - [ ] EMI/EMC standartlarına uyumluluk kontrol edildi mi?
+
+## 🏆 Onur Listesi (Hall of Fame)
+- **Ken Thompson:** Unix ve B dilinin (C'nin atası) yaratıcısı.
+- **Margaret Hamilton:** Apollo görevleri için yazdığı yazılımla "Software Engineering" terimini doğuran isim.
+- **Andrew Tanenbaum:** MINIX yaratıcısı ve işletim sistemleri teorisyeni.
+- **Richard Stallman:** GNU projesi ve Özgür Yazılım Hareketinin lideri.

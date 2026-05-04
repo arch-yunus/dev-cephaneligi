@@ -50,3 +50,9 @@ Veritabanı sistemin kalıcı hafızasıdır. Bir zanaatkar burada veriyi sadece
 - [ ] Bağlantı havuzu (Connection Pooling) ayarları optimize edildi mi?
 - [ ] Hassas veriler (Sensitive Data) şifrelendi mi?
 - [ ] İndeksleme stratejisi gözden geçirildi mi?
+
+## 🏆 Onur Listesi (Hall of Fame)
+- **Edgar F. Codd:** İlişkisel veritabanı modelinin (RDBMS) mucidi.
+- **Michael Stonebraker:** Ingres ve PostgreSQL'in yaratıcısı.
+- **Salvatore Sanfilippo (antirez):** Redis'in yaratıcısı.
+- **Martin Kleppmann:** Modern veri mimarileri ve dağıtık sistemler üzerine "Designing Data-Intensive Applications" kitabının yazarı.

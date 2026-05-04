@@ -197,7 +197,47 @@ Bir zanaatkar işine başlarken atölyesini düzenler. En yaygın proje türleri
 
 ---
 
-## 🧙 Bilgece Tavsiyeler (Sage's Advice)
+## 🤖 Yapay Zeka Destekli Zanaatkarlık (AI-Powered)
+
+Yapay zeka, zanaatkarın yeni "kuvvet çarpanı"dır. Ancak onu bir asistan olarak kullanmakla, ona bağımlı olmak arasındaki çizgi ince bir sanattır.
+
+### 🧠 AI ile Pair Programming
+- **Cursor & Copilot:** Kodu yazdırmak için değil, kodu **anlatmak** ve **test etmek** için kullanın.
+- **Prompt Engineering:** Sorunu parçalara ayırın (atomic prompts). AI'ya bir "role" verin (Örn: "Sen kıdemli bir Rust mühendisisin").
+- **Kritik Düşünce:** AI'nın yazdığı her satırı, sanki bir stajyer yazmış gibi sorgulayın ve review edin.
+
+---
+
+## 🧘 Fiziksel Atölye & Zihin Sağlığı (Beyond Code)
+
+Bir zanaatkarın en değerli aracı kendi bedenidir. Uzun vadeli başarı için:
+
+- **Ergonomi:** 90 derece kuralı (dirsekler ve dizler). Monitörün göz hizasında olması.
+- **20-20-20 Kuralı:** Her 20 dakikada bir, 20 saniye boyunca 20 fit uzağa bakın.
+- **Mekanik Klavyeler:** Yazım konforu ve tactile (dokunsal) geri bildirim ile hata payını azaltın.
+- **Derin Odak (Deep Work):** Bildirimleri kapatın. 90 dakikalık bloklar halinde çalışın.
+
+---
+
+## 📚 Zanaatkarın Kitaplığı & Kaynaklar
+
+Sektörü takip etmek için en seçkin kaynaklar:
+
+- **Podcasts:** *Syntax.fm, Changelog, Darknet Diaries.*
+- **Newsletters:** *ByteByteGo, TLDR, Pointer.*
+- **YouTube:** *The Primeagen, Fireship, Computerphile.*
+
+---
+
+## 🌐 Topluluk & Ağ Kurma
+
+Yalnız yürümeyin. İşte zanaatkarların toplandığı meydanlar:
+
+- **Reddit:** `r/programming`, `r/cscareerquestions`.
+- **Hacker News:** Sektörün entelektüel nabzı.
+- **Discord & Slack:** Yerel ve global geliştirici toplulukları.
+
+---
 
 *   **Tuzak: "Sonsuz Öğrenme Döngüsü":** Sürekli tutorial izlemeyin, inşa edin.
 *   **Yavaş Öğrenin, Hızlı İnşa Edin:** Temelleri derin öğrenin, framework'leri projeyle kavrayın.

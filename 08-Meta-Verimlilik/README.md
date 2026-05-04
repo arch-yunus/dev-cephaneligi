@@ -49,3 +49,9 @@ Yazılım bir lonca işidir. Topluluğa katkı sağlamak ve kolektif zekayı kul
 - [ ] Topluluk kanalları (Discord/Slack) linklendi mi?
 - [ ] Proje vizyonu ve roadmap açıkça belirtildi mi?
 - [ ] İletişim dili (Kibar ve profesyonel) korundu mu?
+
+## 🏆 Onur Listesi (Hall of Fame)
+- **Eric S. Raymond:** "The Cathedral and the Bazaar" ile açık kaynak felsefesini tanımlayan isim.
+- **Aaron Swartz:** Markdown'ın eş-yaratıcısı ve internet özgürlüğü savunucusu.
+- **Ward Cunningham:** Wiki konseptinin yaratıcısı ve Agile manifestosunun imzacılarından.
+- **Kent Beck:** Extreme Programming (XP) ve TDD (Test Driven Development) öncüsü.
