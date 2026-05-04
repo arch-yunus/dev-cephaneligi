@@ -23,26 +23,29 @@
 
 ## 🗺️ Teknoloji Ekosistemi
 
-### 🏗️ Temel Programlama & Paradigmalar
-[![My Skills](https://skillicons.dev/icons?i=c,cpp,rust,zig,go,py,java,cs,ruby,php,swift,kotlin,js,ts,dart,haskell,elixir,clojure,erlang,scala,lua,perl,nim,solidity,wasm)](https://skillicons.dev)
+### 🏗️ 1. Temel Programlama Dilleri & Mantık
+[![My Skills](https://skillicons.dev/icons?i=py,cpp,c,cs,js,ts,go,rust,java,solidity,haskell,elixir,clojure,erlang,julia,php,ruby,perl,zig,r,fortran,swift,kotlin,dart,lua,forth,nim,ocaml,scala,wasm)](https://skillicons.dev)
 
-### 🧠 Yapay Zeka, Veri & Analitik
-[![My Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,regex,numpy,pandas,spark,kafka,hadoop,opencv,grafana,prometheus,matlab,anaconda)](https://skillicons.dev)
+### 🧠 2. Yapay Zeka, Veri & Zeka
+[![My Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,numpy,pandas,matlab,anaconda,d3,grafana,prometheus,regex)](https://skillicons.dev)
 
-### ☁️ Altyapı, Bulut & DevOps
-[![My Skills](https://skillicons.dev/icons?i=docker,kubernetes,git,github,gitlab,jenkins,aws,gcp,azure,terraform,ansible,nginx,cloudflare,vercel,netlify,heroku)](https://skillicons.dev)
+### 🛡️ 3. Altyapı, Bulut & DevOps
+[![My Skills](https://skillicons.dev/icons?i=docker,kubernetes,git,github,gitlab,jenkins,aws,gcp,azure,nginx,cloudflare,terraform,ansible,vagrant,vercel,netlify,heroku)](https://skillicons.dev)
 
-### 🌐 Web, Mobil & Frameworkler
-[![My Skills](https://skillicons.dev/icons?i=html,css,react,nextjs,angular,vue,svelte,tailwind,bootstrap,sass,nodejs,express,fastapi,flask,django,nestjs,laravel,rails,spring,flutter,electron)](https://skillicons.dev)
+### 🌐 4. Web, Mobil & Çalışma Ortamları
+[![My Skills](https://skillicons.dev/icons?i=html,css,react,nextjs,angular,vue,svelte,tailwind,bootstrap,sass,nodejs,express,fastapi,flask,django,nestjs,laravel,rails,deno,bun,apollo,graphql,flutter)](https://skillicons.dev)
 
-### 🤖 Sistemler, IoT & Oyun Motorları
+### 📟 5. Gömülü Sistemler, IoT & İşletim Sistemleri
 [![My Skills](https://skillicons.dev/icons?i=linux,ubuntu,debian,fedora,kali,arch,apple,windows,arduino,raspberrypi,unity,unreal,godot)](https://skillicons.dev)
 
-### 🛠️ Geliştirici Araçları & Tasarım
-[![My Skills](https://skillicons.dev/icons?i=vscode,visualstudio,neovim,vim,emacs,npm,yarn,pnpm,figma,photoshop,illustrator,postman)](https://skillicons.dev)
+### 🧰 6. Araçlar & Tasarım Seti
+[![My Skills](https://skillicons.dev/icons?i=vscode,visualstudio,vim,neovim,emacs,postman,npm,yarn,pnpm,figma,blender,photoshop,illustrator,obsidian,notion,discord,slack)](https://skillicons.dev)
 
-### 🗄️ Veritabanları & Veri Depolama
-[![My Skills](https://skillicons.dev/icons?i=postgres,mysql,sqlite,mongodb,redis,cassandra,neo4j,supabase,firebase,dynamodb)](https://skillicons.dev)
+### 🗄️ 7. Veritabanları & Depolama
+[![My Skills](https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite,redis,cassandra,dynamodb,neo4j,supabase,firebase)](https://skillicons.dev)
+
+### ♾️ 8. Meta & Verimlilik
+[![My Skills](https://skillicons.dev/icons?i=github,gitlab,discord,slack,instagram,linkedin,twitter,markdown)](https://skillicons.dev)
 
 ---
 
@@ -50,26 +53,23 @@
 
 ```mermaid
 graph TD
-    A[Başlangıç: Temel Diller] --> B{Alan Seçimi}
+    A[Başlangıç: Temel Diller & Mantık] --> B{Alan Seçimi}
     B --> C[Web & Mobil Geliştirme]
-    B --> D[Veri Bilimi & AI]
+    B --> D[AI & Veri Bilimi]
     B --> E[Sistem & Gömülü Sistemler]
     
-    C --> C1[Frontend]
-    C --> C2[Backend]
-    C --> C3[Cloud & DevOps]
+    C --> C1[Frontend / Backend]
+    C --> C2[DevOps & Bulut]
     
-    D --> D1[Veri Analizi]
-    D --> D2[Makine Öğrenmesi]
-    D --> D3[LLM & NLP]
+    D --> D1[Veri Analizi / ML]
+    D --> D2[Zeka & LLM]
     
-    E --> E1[Linux Kernel]
-    E --> E2[IoT & Robotik]
-    E --> E3[Oyun Motorları]
+    E --> E1[Kernel / OS]
+    E --> E2[IoT / Robotik]
     
-    C1 & C2 & C3 --> F[Full-Stack Architect]
-    D1 & D2 & D3 --> G[AI Engineer]
-    E1 & E2 & E3 --> H[Systems Architect]
+    C1 & C2 --> F[Full-Stack Architect]
+    D1 & D2 --> G[AI Specialist]
+    E1 & E2 --> H[Systems Architect]
     
     F & G & H --> I[🚀 Teknoloji Lideri / Zanaatkar]
 ```
@@ -80,23 +80,14 @@ graph TD
 
 | Dizin | Açıklama |
 | :--- | :--- |
-| [01-Temel-Diller](./01-Temel-Programlama-Dilleri-Paradigmalar) | Sistem, Nesne Yönelimli ve Fonksiyonel diller. |
-| [02-AI-Veri](./02-Yapay-Zeka-Veri-Analitik) | ML, DL, LLM ve Veri analizi araçları. |
-| [03-DevOps](./03-Altyapi-Bulut-DevOps) | Bulut, IaC ve CI/CD süreçleri. |
-| [04-Web-Mobil](./04-Web-Mobil-Calisma-Ortamlari) | Modern frameworkler ve runtime ortamları. |
-| [05-Gömülü-Sistemler](./05-Gomulu-Sistemler-IoT-Isletim-Sistemleri) | OS, IoT ve Oyun motorları. |
-| [06-Araçlar-Tasarım](./06-Gelistirici-Araclari-Tasarim-Seti) | IDE'ler, Terminal ve Tasarım setleri. |
-| [07-Veritabanları](./07-Veritabanlari-Veri-Depolama) | RDBMS, NoSQL ve Vektör veritabanları. |
-| [08-Siber-Güvenlik](./08-Siber-Guvenlik-Ag) | Ağ analizi ve sızma testi araçları. |
-| [09-Meta-Verimlilik](./09-Meta-Iletisim-Verimlilik) | Proje yönetimi ve iletişim araçları. |
-
----
-
-## 🚀 Nasıl Kullanılır?
-
-1. **İhtiyaca Göre Odaklan:** Bir proje geliştirirken hangi kategoriye ihtiyacın varsa oraya derinleş.
-2. **T-Shaped Model:** Bir alanda uzmanlaşırken diğer alanlarda genel kültür sahibi ol.
-3. **Kendi Stack'ini Belirle:** Bu cephanelikten en iyi araçları seç ve kendi imzanı at.
+| [01-Temel-Diller-Mantık](./01-Temel-Programlama-Dilleri-Mantik) | Temel programlama dilleri ve mantıksal yapılar. |
+| [02-AI-Veri-Zeka](./02-Yapay-Zeka-Veri-Zeka) | Yapay zeka, veri bilimi ve analitik araçlar. |
+| [03-Altyapı-Bulut-DevOps](./03-Altyapi-Bulut-DevOps) | Bulut sistemleri, orkestrasyon ve DevOps. |
+| [04-Web-Mobil](./04-Web-Mobil-Calisma-Ortamlari) | Web, mobil ve modern çalışma frameworkleri. |
+| [05-Gömülü-IoT-OS](./05-Gomulu-Sistemler-IoT-OS) | İşletim sistemleri, IoT ve oyun motorları. |
+| [06-Araçlar-Tasarım](./06-Araclar-Tasarim-Seti) | IDE'ler, tasarım araçları ve verimlilik setleri. |
+| [07-Veritabanları-Depolama](./07-Veritabanlari-Depolama) | İlişkisel, NoSQL ve modern depolama çözümleri. |
+| [08-Meta-Verimlilik](./08-Meta-Verimlilik) | İletişim, sosyal ağlar ve meta verimlilik araçları. |
 
 ---
 
