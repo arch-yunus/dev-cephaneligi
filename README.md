@@ -21,6 +21,24 @@
 
 ---
 
+## 🎨 Öğrenme Sanatı & Stratejisi
+
+Bir teknoloji yığınını (stack) sadece ezberlemek sizi bir "operatör" yapar; ama işin mantığını kavramak sizi bir **"zanaatkar"** (artisan) yapar. İşte bu cephaneliği kullanırken izlemeniz gereken strateji:
+
+### 1. 🧩 İlk İlkeler Düşüncesi (First Principles)
+Bir şeyi öğrenirken "bu nasıl çalışır?" diye sormak yerine "bu neden var?" diye sorun. Örneğin; Docker'ı öğrenmeden önce, işletim sistemlerinin süreçleri (processes) nasıl izole ettiğini anlamaya çalışın. Temelleri sağlam olanın, üstüne inşa edeceği bina yıkılmaz.
+
+### 2. 💡 Feynman Tekniği
+Bir konuyu öğrendiğinizi düşünüyorsanız, onu hiç bilmeyen birine anlatmaya çalışın. Eğer basit cümlelerle anlatamıyorsanız, o konuyu tam olarak kavramamışsınız demektir. Boşlukları bulun ve tekrar temellere dönün.
+
+### 3. 🏗️ Yaparak Öğren (Project-Based Learning)
+Teori sizi bir yere kadar götürür. Gerçek öğrenme, kodunuz hata verdiğinde ve o hatayı çözmek için saatlerinizi harcadığınızda başlar. Her kategoride kendinize küçük bir proje belirleyin ve inşa edin.
+
+### 4. 📐 T-Shaped Gelişim Modeli
+Her şeyi bilmek imkansızdır. Bir alanda (örneğin Backend) dikeyde uzmanlaşın (T'nin dikey çizgisi), diğer tüm kategorilerde ise genel bir kültür sahibi olun (T'nin yatay çizgisi). Bu, size hem derinlik hem de adaptasyon yeteneği kazandırır.
+
+---
+
 ## 🗺️ Teknoloji Ekosistemi
 
 ### 🏗️ 1. Temel Programlama Dilleri & Mantık
