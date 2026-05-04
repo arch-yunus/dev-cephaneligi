@@ -3,23 +3,33 @@
 # 🗄️ Veritabanları & Depolama
 
 ## 🎭 Zanaatkarın Bakış Açısı
-Veri tabanı, uygulamanın kalıcı hafızasıdır. Veriyi sadece saklamak değil, ona en hızlı şekilde ulaşmak bir mühendislik disiplinidir.
+Veritabanı sistemin kalıcı hafızasıdır. Bir zanaatkar burada veriyi sadece saklamaz, onu en hızlı ve güvenli şekilde sorgular.
 
-## 📊 SQL vs. NoSQL
-| Özellik | SQL (İlişkisel) | NoSQL (Doküman/Key-Value) |
-| :--- | :--- | :--- |
-| **Şema** | Katı, önceden tanımlı. | Esnek, dinamik. |
-| **Ölçekleme** | Dikey (Vertical). | Yatay (Horizontal). |
-| **Örnek** | PostgreSQL, MySQL. | MongoDB, Redis. |
+## 🧠 Kritik Konseptler
+- **Normalization vs. Denormalization:** Veriyi bölerek tutarlılığı sağlamak vs. birleştirerek hızı artırmak.
+- **Indexing:** Milyarlarca veri arasından aradığını milisaniyeler içinde bulma sanatı.
+- **Transactions (ACID):** İşlemlerin ya tamamen gerçekleşmesi ya da hiç gerçekleşmemesi garantisi.
+- **Sharding & Replication:** Veriyi farklı sunuculara yayarak ölçekleme ve yedekleme.
 
-## 💡 Game Changers: Verinin Düzeni
-- **Relational Model (Edgar Codd):** Tablolar ve ilişkilerle veriyi organize etme fikri.
-- **Vector Databases:** AI ve LLM'lerin veriyi anlamca (semantik) araması için gereken yeni nesil depolama.
+## 🏁 Sektör Standartları & Pratikler
+- **Schema Migrations:** Veritabanı yapısındaki değişiklikleri kod gibi versiyonlayarak yönetme.
+- **ORM (Object-Relational Mapping):** Veritabanı tablolarını kod tarafında nesne gibi kullanma.
+- **Pooling:** Veritabanı bağlantılarını verimli yönetmek için "Connection Pool" kullanımı.
+
+## ⚠️ Sık Yapılan Hatalar
+- **N+1 Sorgu Problemi:** Döngü içinde veritabanına yüzlerce gereksiz sorgu göndermek.
+- **İndeks Eksikliği:** Sorguların büyümesiyle sistemin aşırı yavaşlaması.
+- **Hatalı Seçim:** İlişkisel veri için NoSQL, veya döküman tipi veri için katı SQL şemaları kullanmak.
+
+## 🛠️ Araç Seçim Mantığı
+- **Karmaşık İlişkiler:** Kesinlikle **PostgreSQL**.
+- **Hız & Önbellek:** Key-Value saklama için **Redis**.
+- **Esnek Şema:** Hızlı değişen döküman verileri için **MongoDB**.
 
 ## 🚀 Zanaatkarlık Görevleri
-- **Çırak:** SQL kullanarak bir kütüphane yönetim sistemi şeması çiz.
-- **Kalfa:** Redis kullanarak bir API için "Rate Limiting" katmanı kur.
-- **Usta:** PostgreSQL üzerinde indeksleme ve sorgu optimizasyonu ile performans analizi yap.
+- **Çırak:** SQL ile birbirine bağlı 3 tablo kur ve verileri sorgula.
+- **Kalfa:** Bir projende Redis kullanarak API yanıtlarını önbellekle (Caching).
+- **Usta:** Veritabanında "Sharding" veya karmaşık bir "Query Optimization" çalışması yap.
 
 ## 🚀 Teknolojiler
 - PostgreSQL, MongoDB, MySQL, SQLite, Redis, Cassandra, DynamoDB, Neo4j, PlanetScale, Supabase, Appwrite, Firebase.

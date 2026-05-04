@@ -3,25 +3,32 @@
 # 🏗️ Temel Programlama Dilleri & Mantık
 
 ## 🎭 Zanaatkarın Bakış Açısı
-Programlama dilleri sadece makinelerle konuşma araçları değil, **düşüncenin anatomisidir**. Bir sistem programcısı (C/Rust) bir cerrah titizliğiyle belleği yönetirken, bir web geliştiricisi (JS/TS) kaotik bir ağ üzerinde akışkan bir dünya kurar.
+Programlama dilleri düşüncenin alfabesidir. Bir zanaatkar için dil, sadece sözdizimi (syntax) değil, problem çözme paradigmasıdır.
 
-## 📊 Karşılaştırma: Hangi Dil, Ne Zaman?
-| Dil | Güçlü Yanı | En İyi Kullanım Alanı |
-| :--- | :--- | :--- |
-| **Python** | Hızlı geliştirme, geniş kütüphane. | AI, Veri Bilimi, Scripting. |
-| **Rust** | Bellek güvenliği, yüksek performans. | Sistem programlama, WASM, Kripto. |
-| **Go** | Eşzamanlılık (Concurrency), basitlik. | Mikroservisler, Cloud native araçlar. |
-| **TypeScript** | Tip güvenliği, büyük ölçekli JS. | Modern Web Frontend/Backend. |
+## 🧠 Kritik Konseptler
+- **Bellek Yönetimi (Memory Management):** Stack vs. Heap farkı, manuel (C) vs. otomatik (Java/Python) vs. sahiplik (Rust) modelleri.
+- **Eşzamanlılık (Concurrency & Parallelism):** Race condition'lardan kaçınma, Thread'ler, Coroutine'ler ve Actor modeli.
+- **Tip Sistemleri (Type Systems):** Statik vs. Dinamik, Güçlü vs. Zayıf tipleme ve bunların hata önlemedeki rolleri.
+- **Derleme Süreçleri:** JIT (Just-In-Time) vs. AOT (Ahead-Of-Time) derleme.
 
-## 💡 Game Changers: Düşünceyi Değiştirenler
-- **C:** Donanım ile yazılım arasındaki evrensel köprü.
-- **Lisp:** Fonksiyonel programlamanın ve kodun veri olduğu (homoiconicity) fikrinin atası.
-- **Rust:** "Garbage Collector" olmadan bellek güvenliği sağlanabileceğini kanıtlayan devrim.
+## 🏁 Sektör Standartları & Pratikler
+- **Clean Code:** Anlamlı isimlendirmeler, küçük fonksiyonlar ve kendini dökümante eden kod.
+- **SOLID Prensipleri:** Nesne yönelimli dillerde esnek ve sürdürülebilir mimari.
+- **Linting & Formatting:** Proje genelinde standart kod stili (ESLint, Prettier, Black, Clang-Format).
+
+## ⚠️ Sık Yapılan Hatalar
+- **Global Değişken Kullanımı:** Kodun test edilebilirliğini ve güvenliğini bozar.
+- **Hata Yönetimi İhmali:** Try-catch bloklarını boş bırakmak veya error check yapmamak.
+- **Optimizasyon Takıntısı:** Henüz çalışmayan kodu optimize etmeye çalışmak (Premature Optimization).
+
+## 🛠️ Araç Seçim Mantığı
+- **Hız mı, Güvenlik mi?** Eğer mikro saniye seviyesinde performans gerekliyse **C/Rust**; hızlı prototipleme gerekiyorsa **Python**.
+- **Ekosistem Gücü:** Büyük bir kurumsal proje ise **Java/C#**; modern web dünyası ise **TS/Go**.
 
 ## 🚀 Zanaatkarlık Görevleri
-- **Çırak:** Terminal üzerinde çalışan basit bir hesap makinesi yap.
-- **Kalfa:** Bir sıralama algoritmasını (Merge Sort) kütüphane kullanmadan görselleştir.
-- **Usta:** Kendi betik dilini (Toy Language) tasarla.
+- **Çırak:** Terminal üzerinden çalışan basit bir hesap makinesi yap.
+- **Kalfa:** Bir sıralama algoritmasını kütüphane kullanmadan görselleştir.
+- **Usta:** Kendi betik dilini tasarla veya bir derleyici yaz.
 
 ## 🚀 Teknolojiler
 - Python, C++, C, C#, JavaScript, TypeScript, Go, Rust, Java, Solidity, Haskell, Elixir, Clojure, Erlang, Julia, PHP, Ruby, Perl, Zig, R, Fortran, Swift, Kotlin, Dart, Lua, Forth, Nim, OCaml, Pkl, Scala, V, Vala, WASM, Haxe.

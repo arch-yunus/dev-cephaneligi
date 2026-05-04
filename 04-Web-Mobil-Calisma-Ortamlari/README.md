@@ -3,20 +3,32 @@
 # 🌐 Web, Mobil & Çalışma Ortamları
 
 ## 🎭 Zanaatkarın Bakış Açısı
-Yazılımın insanla el sıkıştığı nokta. Web artık bir döküman değil, tarayıcıda çalışan bir işletim sistemidir.
+Web ve mobil, yazılımın dış dünyayla temas ettiği deri gibidir. Bir zanaatkar burada hem performans hem de estetik peşindedir.
 
-## 📊 Client-Side vs. Server-Side Rendering
-- **CSR (React/Vue):** Tarayıcıda render edilir. Hızlı etkileşim sağlar ama SEO zayıf olabilir.
-- **SSR (Next.js/Remix):** Sunucuda render edilir. SEO dostudur ve ilk yükleme hızı yüksektir.
+## 🧠 Kritik Konseptler
+- **Virtual DOM:** Arayüz değişikliklerini en verimli şekilde ekrana yansıtma tekniği.
+- **State Management:** Verinin bileşenler (components) arasındaki akışını yönetme (Zustand, Redux, Context).
+- **Responsive Design:** Tek bir kodla tüm ekran boyutlarına (mobil/tablet/desktop) uyum sağlama.
+- **Web Vitals:** Google'ın performans kriterleri (LCP, FID, CLS).
 
-## 💡 Game Changers: Web'in Dönüşümü
-- **Ajax:** Sayfayı yenilemeden veri çekme devrimi.
-- **React:** Component tabanlı düşünce ve "Virtual DOM" ile arayüz geliştirmeyi basitleştiren devrim.
+## 🏁 Sektör Standartları & Pratikler
+- **Component-Driven Development:** Arayüzü küçük, bağımsız ve tekrar kullanılabilir parçalara bölme.
+- **Semantic HTML:** Erişilebilirlik ve SEO için anlamlı etiketler kullanma.
+- **Mobile First:** Tasarıma önce mobil cihazlardan başlama felsefesi.
+
+## ⚠️ Sık Yapılan Hatalar
+- **Aşırı JS Kullanımı:** Sayfayı ağırlaştıran ve kullanıcıyı bekleten gereksiz kütüphaneler.
+- **Güvenlik İhmali (XSS/CSRF):** Kullanıcı girişlerini temizlemeden ekrana basmak.
+- **Erişilebilirlik (Accessibility):** Ekran okuyucuları veya klavye kullanıcılarını yok saymak.
+
+## 🛠️ Araç Seçim Mantığı
+- **Hangi Framework?** Hız ve SEO için **Next.js**; saf single-page uygulama için **React/Vue**.
+- **Mobil:** Native performans için **Swift/Kotlin**; hızlı ve cross-platform için **Flutter/React Native**.
 
 ## 🚀 Zanaatkarlık Görevleri
-- **Çırak:** Responsive bir portfolyo sitesi yap.
-- **Kalfa:** Tailwind CSS kullanarak modern bir dashboard tasarla.
-- **Usta:** Next.js kullanarak tam kapsamlı bir E-Ticaret sitesi inşa et.
+- **Çırak:** HTML/CSS/JS ile responsive bir "Hakkımda" sayfası yap.
+- **Kalfa:** Bir API'den veri çeken ve listeleyen bir React uygulaması geliştir.
+- **Usta:** Next.js ve Tailwind kullanarak full-stack bir blog veya e-ticaret sitesi yap.
 
 ## 🚀 Teknolojiler
 - HTML, CSS, React, Next.js, Angular, Vue, Svelte, SolidJS, Astro, HTMX, Tailwind CSS, Bootstrap, Sass, Node.js, Express, FastAPI, Flask, Django, NestJS, Laravel, Rails, Deno, Bun, Cloudflare Workers, Apollo, GraphQL, Flutter.

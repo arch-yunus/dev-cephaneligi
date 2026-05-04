@@ -3,20 +3,32 @@
 # ♾️ Meta & Verimlilik
 
 ## 🎭 Zanaatkarın Bakış Açısı
-Yazılım tek kişilik bir spor değildir. Toplulukla etkileşim kurmak ve bilginizi paylaşmak sizi bir "kod yazarı" olmaktan çıkarıp bir "usta" yapar.
+Yazılım bir lonca işidir. Topluluğa katkı sağlamak ve kolektif zekayı kullanmak sizi bir üst seviyeye taşır.
 
-## 📊 Topluluk vs. Kolektif Zeka
-- **GitHub/Open Source:** Başkalarının omzuna basarak yükseldiğimiz devasa bir kütüphane.
-- **Discord/Slack:** Anlık bilgi paylaşımı ve networking merkezleri.
+## 🧠 Kritik Konseptler
+- **Open Source Licensing:** Yazılımının haklarını koruma ve paylaşma kuralları (MIT, GPL, Apache).
+- **Technical Writing:** Karmaşık teknik konuları herkesin anlayabileceği şekilde dökümante etme.
+- **Personal Branding:** Bir geliştirici olarak dijital dünyadaki ayak izin ve bilinirliğin.
+- **Networking:** Diğer zanaatkarlarla tanışma ve bilgi alışverişi.
 
-## 💡 Game Changers: Sosyal Kodlama
-- **Open Source Manifesto:** Yazılımın özgürlüğü ve kolektif geliştirmenin gücü.
-- **Stack Overflow:** Milyonlarca geliştiricinin takıldığı yerlerdeki "dijital kütüphane".
+## 🏁 Sektör Standartları & Pratikler
+- **Commit Conventions:** "feat:", "fix:", "docs:" gibi standart commit önekleri.
+- **Code Review:** Başkasının koduna yapıcı eleştiri getirme ve ondan öğrenme süreci.
+- **Public Learning:** Öğrendiğin her şeyi açık bir şekilde (blog/twitter) paylaşma felsefesi.
+
+## ⚠️ Sık Yapılan Hatalar
+- **Bilgi Saklamak:** "Bunu bir tek ben biliyim" demek gelişimin önündeki en büyük engeldir.
+- **İletişim Eksikliği:** Takım içinde ne yaptığını anlatmamak veya yardım istemekten çekinmek.
+- **Toksiklik:** Eleştiriyi kişisel algılamak veya başkalarının kodunu aşağılamak.
+
+## 🛠️ Araç Seçim Mantığı
+- **Kod Paylaşımı:** Sektör standardı için **GitHub**.
+- **İletişim:** Kurumsal ekipler için **Slack**; topluluklar için **Discord**.
 
 ## 🚀 Zanaatkarlık Görevleri
-- **Çırak:** GitHub'da bir projeye "Star" ver ve dökümantasyonunu oku.
-- **Kalfa:** Teknik bir konuda Medium veya GitHub Gist üzerinde yazı yaz.
-- **Usta:** Bir açık kaynak projeye ilk "Pull Request"ini gönder.
+- **Çırak:** GitHub'da bir açık kaynak projenin dökümantasyonuna küçük bir katkı yap.
+- **Kalfa:** Kendi öğrendiğin bir konuyu anlatan bir blog yazısı veya GitHub Gist paylaş.
+- **Usta:** Kendi açık kaynak projeni başlat ve topluluk yönetimini yap.
 
 ## 🚀 Teknolojiler
 - Stack Overflow, GitHub, GitLab, Bitbucket, Discord, Slack, Instagram, LinkedIn, Twitter (X), Markdown, Fediverse, ActivityPub.
