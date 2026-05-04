@@ -3,22 +3,20 @@
 # 📟 Gömülü Sistemler, IoT & İşletim Sistemleri
 
 ## 🎭 Zanaatkarın Bakış Açısı
-Yazılımın fiziksel dünya ile birleştiği o sihirli nokta burasıdır. Bir bitin bir motoru döndürdüğünü görmek, bir zanaatkar için en saf hazlardan biridir. Burada kaynaklar kısıtlıdır; bellek ve işlemci gücü her zaman değerlidir. Verimlilik burada bir tercih değil, bir zorunluluktur.
+Bitlerin fiziksel dünyada sese, harekete veya ışığa dönüştüğü yer. Verimlilik bir tercih değil, donanım kısıtları nedeniyle bir zorunluluktur.
 
-## 🛠️ Nasıl Başlamalıyım?
-1. **Sistem Mimarisi:** Bir CPU'nun ve belleğin (RAM) nasıl el sıkıştığını anlamaya çalışın.
-2. **Linux Çekirdeği:** Bir işletim sisteminin süreçleri nasıl yönettiğini keşfedin.
-3. **Fiziksel Etkileşim:** Bir Arduino veya ESP32 ile donanıma ilk komutlarınızı gönderin.
+## 📊 Kernel Tipleri
+- **Monolithic Kernel (Linux):** Tüm servisler çekirdek içindedir. Hızlıdır ama bir hata tüm sistemi çökertebilir.
+- **Microkernel (Minix/L4):** Sadece temel fonksiyonlar çekirdektedir. Güvenli ve modülerdir.
 
-## 📚 Kutsal Kitaplar & Kaynaklar
-- **Modern Operating Systems** - Andrew S. Tanenbaum
-- **The Art of Electronics** - Horowitz & Hill
-- **Programming Embedded Systems** - Michael Barr
+## 💡 Game Changers: Özgürlüğün Sesi
+- **Linux:** Açık kaynak dünyasının ve internetin motoru olan çekirdek.
+- **Arduino:** Elektroniği ve gömülü sistemleri herkes için erişilebilir kılan platform.
 
 ## 🚀 Zanaatkarlık Görevleri
-- **Çırak:** Arduino kullanarak bir sensörden (Örn: Mesafe/Sıcaklık) gelen veriyi bilgisayarına aktar.
-- **Kalfa:** Raspberry Pi üzerinde çalışan küçük bir ev otomasyon sistemi (Örn: Lamba kontrolü) yap.
-- **Usta:** Linux çekirdeği (Kernel) için basit bir sürücü (Driver) geliştir veya bir RTOS (Real Time OS) kullan.
+- **Çırak:** Arduino ile bir butona basıldığında yanan bir LED devresi kur.
+- **Kalfa:** Raspberry Pi üzerinde bir web server çalıştırıp fiziksel bir sensörü oku.
+- **Usta:** Linux Kernel için basit bir "Hello World" modülü/sürücüsü yaz.
 
 ## 🚀 Teknolojiler
 - Linux, Ubuntu, Debian, Fedora, Kali Linux, Arch Linux, Linux Mint, RedHat, BSD, Nix, Plan9, Apple, Windows, ROS (Robot Operating System), Arduino, Raspberry Pi, Bevy, Godot, Unity, Unreal Engine.

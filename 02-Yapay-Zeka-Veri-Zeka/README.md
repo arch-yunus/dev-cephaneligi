@@ -3,22 +3,20 @@
 # 🧠 Yapay Zeka, Veri & Zeka
 
 ## 🎭 Zanaatkarın Bakış Açısı
-Yapay zeka, insanın kendi bilişsel süreçlerini makineler üzerinde yeniden inşa etme çabasıdır. Burada veri, pasif bir bilgi yığını değil; öğrenen bir organizmanın gıdasıdır. Bir zanaatkar olarak AI ile uğraşmak, sadece model eğitmek değil, makinelerin rüyalarını (hallucinations) ve mantığını anlamaya çalışmaktır.
+Yapay zeka, insanın kendi bilişsel süreçlerini makineler üzerinde yeniden inşa etme çabasıdır. Veri, pasif bir bilgi yığını değil; öğrenen bir organizmanın gıdasıdır.
 
-## 🛠️ Nasıl Başlamalıyım?
-1. **Veri Okuryazarlığı:** Veriyi sadece sayı olarak değil, bir hikaye olarak okumayı öğrenin.
-2. **Kütüphaneler:** TensorFlow ve PyTorch arasındaki felsefe farklarını anlayın.
-3. **Matematiksel Sezgi:** Gradient Descent'in bir tepeden aşağı inmek olduğunu hissetmeden derin öğrenmeyi kavrayamazsınız.
+## 📊 Veri Bilimi vs. Veri Mühendisliği
+- **Veri Mühendisliği (Data Engineering):** Verinin boru hatlarını (pipelines) kurar, veriyi temizler ve AI için hazır hale getirir (Spark, Kafka).
+- **Veri Bilimi (Data Science):** Hazır veriden anlam çıkarır, modeller kurar ve kehanetlerde bulunur (Scikit-learn, PyTorch).
 
-## 📚 Kutsal Kitaplar & Kaynaklar
-- **Deep Learning** - Ian Goodfellow (Modern yapay zekanın temeli)
-- **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow** - Aurélien Géron
-- **Artificial Intelligence: A Modern Approach** - Stuart Russell & Peter Norvig
+## 💡 Game Changers: Zekanın Evrimi
+- **Neural Networks:** İnsan beyninden esinlenen mimari.
+- **Transformers:** "Attention is All You Need" makalesiyle başlayan ve LLM'leri (ChatGPT vb.) doğuran devrim.
 
 ## 🚀 Zanaatkarlık Görevleri
-- **Çırak:** Bir CSV dosyasındaki verileri analiz edip grafiklerle özetleyen bir script yaz.
-- **Kalfa:** El yazısı rakamları (MNIST) tanıyan basit bir Sinir Ağı inşa et.
-- **Usta:** LangChain kullanarak, kendi dökümanlarını okuyup cevap veren bir RAG (Retrieval-Augmented Generation) sistemi kur.
+- **Çırak:** Bir CSV dosyasındaki verileri Pandas ile analiz et.
+- **Kalfa:** MNIST veri setiyle rakam tanıyan bir CNN modeli eğit.
+- **Usta:** Bir LLM kullanarak (LangChain), PDF dökümanlarını okuyan bir asistan yap.
 
 ## 🚀 Teknolojiler
 - TensorFlow, PyTorch, OpenCV, Scikit-learn, NumPy, Pandas, Matlab, Octave, Anaconda, D3, Grafana, Prometheus, Regex, Processing.

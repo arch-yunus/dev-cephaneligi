@@ -82,7 +82,47 @@ Bir zanaatkarın yolculuğu doğrusal değildir, ancak şu aşamalar size rehber
 
 ---
 
-## 🗺️ Teknoloji Ekosistemi
+## 📖 Zanaatkar Sözlüğü (The Artisan's Glossary)
+
+Teknoloji dünyasında konuşulan dili anlamak, araçları kullanmak kadar önemlidir. İşte her zanaatkarın bilmesi gereken temel kavramlar:
+
+| Terim | Tanım | Neden Önemli? |
+| :--- | :--- | :--- |
+| **Latency (Gecikme)** | Bir isteğin gönderilmesi ile yanıtın alınması arasındaki süre. | Kullanıcı deneyimini doğrudan belirler. |
+| **Throughput (Geçiş Kapasitesi)** | Bir sistemin birim zamanda işleyebildiği iş miktarı. | Sistemin ölçeklenebilirliğini gösterir. |
+| **Idempotency (Eşgüçlü Olma)** | Bir işlemin defalarca uygulanmasının sonucu değiştirmemesi. | Hata anlarında sistemin tutarlılığını korur. |
+| **Scalability (Ölçeklenebilirlik)** | Sistemin artan yük karşısında kapasitesini artırabilme yeteneği. | Büyüyen projelerin ayakta kalmasını sağlar. |
+| **ACID / BASE** | Veritabanı işlemleri için tutarlılık ve kullanılabilirlik modelleri. | Verinin güvenliğini ve erişilebilirliğini belirler. |
+| **Abstraction (Soyutlama)** | Karmaşıklığı gizleyip sadece gerekli detayları sunma sanatı. | Yönetilebilir kod yazmanın anahtarıdır. |
+
+---
+
+## 🏛️ Mimari Yaklaşımlar (Architectural Patterns)
+
+Doğru araç, yanlış mimariyle felakete yol açabilir. En yaygın üç yaklaşım:
+
+```mermaid
+graph TD
+    subgraph Monolith
+    M[Tek Parça Kod] --> DB[(Merkezi Veritabanı)]
+    end
+    
+    subgraph Microservices
+    S1[Auth Service] --> DB1[(DB 1)]
+    S2[Order Service] --> DB2[(DB 2)]
+    S3[Payment Service] --> DB3[(DB 3)]
+    end
+    
+    subgraph Event-Driven
+    E[Üretici] --> Q{Mesaj Kuyruğu / Broker}
+    Q --> T1[Tüketici 1]
+    Q --> T2[Tüketici 2]
+    end
+```
+
+> **Zanaatkarın Notu:** Mimari seçimi bir "takas" (trade-off) meselesidir. Mikroservisler esneklik sağlar ama karmaşıklığı artırır; monolit basittir ama ölçeklenmesi zordur.
+
+---
 
 | Bölüm | Başlık | Fokus |
 | :--- | :--- | :--- |
@@ -97,7 +137,23 @@ Bir zanaatkarın yolculuğu doğrusal değildir, ancak şu aşamalar size rehber
 
 ---
 
-## 🧙 Bilgece Tavsiyeler (Sage's Advice)
+## 🛤️ Kariyer Yolları (The Artisan's Paths)
+
+Bu cephaneliği hangi sırayla kullanmalısınız? İşte 3 ana uzmanlık rotası:
+
+### 🌐 1. Modern Web Mimarı (Full-Stack Architect)
+*   **Adımlar:** 01 (JS/TS) → 04 (Next.js/Node) → 07 (Postgres/Redis) → 03 (Vercel/Docker)
+*   **Kilit Yetkinlik:** Uçtan uca kullanıcı deneyimi ve performanslı API tasarımı.
+
+### 🧠 2. Yapay Zeka Mühendisi (AI Engineer)
+*   **Adımlar:** 01 (Python) → 02 (PyTorch/Transformers) → 07 (Vector DBs) → 03 (Cloud GPU)
+*   **Kilit Yetkinlik:** Veriden anlam çıkarma ve otonom sistemler kurma.
+
+### 🛡️ 3. Altyapı & Platform Mühendisi (DevOps/SRE)
+*   **Adımlar:** 05 (Linux) → 03 (K8s/Terraform) → 06 (Bash/Automation) → 07 (Scalability)
+*   **Kilit Yetkinlik:** Sistemin ölmezliği, hızı ve görünmez mimarisi.
+
+---
 
 *   **Tuzak: "Sonsuz Öğrenme Döngüsü":** Sürekli tutorial izleyip hiçbir şey üretmemek en büyük düşmandır. Bir şey öğrenin ve hemen bozun, sonra tekrar yapın.
 *   **Yavaş Öğrenin, Hızlı İnşa Edin:** Temel kavramları (Memory management, Networking) yavaş ve derin öğrenin. Framework'leri ise hızlıca projeler üzerinde kavrayın.

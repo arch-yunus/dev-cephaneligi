@@ -3,22 +3,20 @@
 # ♾️ Meta & Verimlilik
 
 ## 🎭 Zanaatkarın Bakış Açısı
-Yazılım bir lonca (guild) işidir. Kolektif zeka, bireysel yeteneğin her zaman önündedir. Bu bölüm, zanaatkarın dünyayla el sıkıştığı noktadır. Bilgiyi paylaşmak, deponuzu başkalarına açmak ve komüniteye katkıda bulunmak sizi bir "kod yazarı" olmaktan çıkarıp bir "kanaat önderi" yapar.
+Yazılım tek kişilik bir spor değildir. Toplulukla etkileşim kurmak ve bilginizi paylaşmak sizi bir "kod yazarı" olmaktan çıkarıp bir "usta" yapar.
 
-## 🛠️ Nasıl Başlamalıyım?
-1. **İletişim Gücü:** Teknik bir konuyu teknik olmayan birine anlatma becerisi kazanın.
-2. **Açık Kaynak:** Başkalarının kodunu okuyun ve küçük iyileştirmeler (Fixes) yapın.
-3. **Dokümantasyon:** Kod yazmak kadar, o kodun nasıl çalıştığını anlatmanın da bir zanaat olduğunu anlayın.
+## 📊 Topluluk vs. Kolektif Zeka
+- **GitHub/Open Source:** Başkalarının omzuna basarak yükseldiğimiz devasa bir kütüphane.
+- **Discord/Slack:** Anlık bilgi paylaşımı ve networking merkezleri.
 
-## 📚 Kutsal Kitaplar & Kaynaklar
-- **The Cathedral and the Bazaar** - Eric S. Raymond (Açık kaynak felsefesi)
-- **Working in Public** - Nadia Eghbal
-- **Soft Skills: The software developer's life manual** - John Sonmez
+## 💡 Game Changers: Sosyal Kodlama
+- **Open Source Manifesto:** Yazılımın özgürlüğü ve kolektif geliştirmenin gücü.
+- **Stack Overflow:** Milyonlarca geliştiricinin takıldığı yerlerdeki "dijital kütüphane".
 
 ## 🚀 Zanaatkarlık Görevleri
-- **Çırak:** GitHub üzerinde bir open-source projeye dokümantasyon veya küçük bir hata düzeltmesi için Pull Request gönder.
-- **Kalfa:** Teknik bir konuyu anlatan kapsamlı bir blog yazısı veya Markdown dökümanı hazırla.
-- **Usta:** Kendi açık kaynak projenizi başlatın veya mevcut bir toplulukta (Discord/Slack) mentorluk yapmaya başlayın.
+- **Çırak:** GitHub'da bir projeye "Star" ver ve dökümantasyonunu oku.
+- **Kalfa:** Teknik bir konuda Medium veya GitHub Gist üzerinde yazı yaz.
+- **Usta:** Bir açık kaynak projeye ilk "Pull Request"ini gönder.
 
 ## 🚀 Teknolojiler
 - Stack Overflow, GitHub, GitLab, Bitbucket, Discord, Slack, Instagram, LinkedIn, Twitter (X), Markdown, Fediverse, ActivityPub.

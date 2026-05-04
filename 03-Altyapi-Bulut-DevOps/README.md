@@ -3,22 +3,20 @@
 # 🛡️ Altyapı, Bulut & DevOps
 
 ## 🎭 Zanaatkarın Bakış Açısı
-DevOps, kodun "nerede" ve "nasıl" yaşadığını belirleyen disiplindir. Bir zanaatkar olarak burada işimiz, sistemlerin ölmezliğini (high availability) ve esnekliğini sağlamaktır. Bulut, sadece başka birinin bilgisayarı değil; sonsuz bir altyapı lego setidir.
+DevOps, kodun "nerede" yaşadığını belirleyen disiplindir. Bir zanaatkar için burada işimiz, sistemlerin ölmezliğini ve esnekliğini sağlamaktır.
 
-## 🛠️ Nasıl Başlamalıyım?
-1. **İzolasyonun Gücü:** Docker ve Kubernetes ile bir uygulamanın çevresinden nasıl tamamen izole edildiğini anlayın.
-2. **Otomasyon:** CI/CD süreçlerini bir lüks değil, bir zorunluluk olarak görün.
-3. **Bulut Agnostik Düşünce:** Uygulamanızı tek bir sağlayıcıya (AWS/GCP) bağımlı kalmadan kurgulayın.
+## 📊 Sanallaştırma vs. Konteynerizasyon
+- **VMware/VirtualBox:** Donanımı sanallaştırır. Ağır ama tam izolasyon sağlar.
+- **Docker:** İşletim sistemini sanallaştırır. Hafiftir, "benim makinemde çalışıyordu" sorununu çözer.
 
-## 📚 Kutsal Kitaplar & Kaynaklar
-- **The Phoenix Project** - Gene Kim (DevOps kültürünü anlamak için)
-- **Site Reliability Engineering (SRE)** - Google E-book
-- **Terraform: Up & Running** - Yevgeniy Brikman
+## 💡 Game Changers: Bulutun Doğuşu
+- **AWS:** Altyapıyı bir servis olarak sunma fikrinin (IaaS) öncüsü.
+- **Kubernetes:** Konteyner orkestrasyonunda standart haline gelen Google mirası.
 
 ## 🚀 Zanaatkarlık Görevleri
-- **Çırak:** GitHub Actions kullanarak, her push işleminde testlerinizi otomatik çalıştıran bir pipeline kur.
-- **Kalfa:** Docker Compose ile bir veritabanı, bir backend ve bir frontend'i tek komutla ayağa kaldır.
-- **Usta:** Kubernetes üzerinde kendi kendini iyileştiren (Self-healing) ve trafik arttığında ölçeklenen bir sistem kur.
+- **Çırak:** GitHub Actions ile otomatik test pipeline'ı kur.
+- **Kalfa:** Bir uygulamayı Dockerize edip Docker Hub'a pushla.
+- **Usta:** Terraform kullanarak AWS üzerinde tüm altyapıyı kodla (IaC) ayağa kaldır.
 
 ## 🚀 Teknolojiler
 - Docker, Kubernetes, Git, GitHub, GitLab, GitHub Actions, Jenkins, AWS, GCP, Azure, Nginx, Cloudflare, Terraform, Ansible, Vagrant, OpenShift, OpenStack, Vercel, Netlify, Heroku.
